@@ -1,0 +1,167 @@
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\bin\Debug\ReleaseCompanion.pdb
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion.csprojResolveAssemblyReference.cache
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\MainWindow.g.cs
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\App.g.cs
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.cache
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.lref
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\MainWindow.baml
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion.g.resources
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion.Properties.Resources.resources
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.GenerateResource.Cache
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\UserLogin.g.cs
+D:\Technical Training\Visual Studio\ReleaseCompanion\ReleaseCompanion\obj\Debug\UserLogin.baml
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.pdb
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.g.cs
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.g.cs
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\App.g.cs
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.cache
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.lref
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.baml
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.baml
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.g.resources
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.Properties.Resources.resources
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.GenerateResource.Cache
+\\lw-veerav\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+\\lw-veerav\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+\\lw-veerav\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csprojResolveAssemblyReference.cache
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.pdb
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csprojResolveAssemblyReference.cache
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ResolveComReference.cache
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.g.cs
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.g.cs
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\App.g.cs
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.cache
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.lref
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.baml
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.baml
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.g.resources
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.Properties.Resources.resources
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.GenerateResource.Cache
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ResolveComReference.cache
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csprojResolveAssemblyReference.cache
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\MainWindow.g.cs
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\UserLogin.g.cs
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\App.g.cs
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.cache
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.lref
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\ReleaseCompanion.pdb
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\MainWindow.baml
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\UserLogin.baml
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.g.resources
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.Properties.Resources.resources
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.GenerateResource.Cache
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Release\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ReleaseCompanion.exe.config
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ResolveComReference.cache
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csprojResolveAssemblyReference.cache
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ReleaseCompanion.exe.config
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\MainWindow.g.cs
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\UserLogin.g.cs
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\App.g.cs
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.cache
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.lref
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\ReleaseCompanion.pdb
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\MainWindow.baml
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\UserLogin.baml
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.g.resources
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.Properties.Resources.resources
+D:\ReleaseCompanion_WPF - Copy\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.GenerateResource.Cache
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ResolveComReference.cache
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Shared Folder\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ReleaseCompanion.exe.config
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ReleaseCompanion.exe.config
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ResolveComReference.cache
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.pdb
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csprojResolveAssemblyReference.cache
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ReleaseCompanion.exe.config
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.g.cs
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.g.cs
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\App.g.cs
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.cache
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.lref
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.baml
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.baml
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.g.resources
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.Properties.Resources.resources
+C:\Users\Rohith.V\Documents\shared\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.GenerateResource.Cache
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe.config
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.exe
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\ReleaseCompanion.pdb
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csprojAssemblyReference.cache
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe.config
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.ResolveComReference.cache
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.g.cs
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.g.cs
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\App.g.cs
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.cache
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion_MarkupCompile.lref
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\MainWindow.baml
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\UserLogin.baml
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.g.resources
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.Properties.Resources.resources
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.GenerateResource.cache
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.CoreCompileInputs.cache
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.csproj.CopyComplete
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.exe
+D:\Code\ReleaseCompanion_WPF\ReleaseCompanion\obj\Debug\ReleaseCompanion.pdb

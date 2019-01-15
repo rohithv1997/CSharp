@@ -1,0 +1,145 @@
+﻿<Window  x:Class="ReleaseCompanion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReleaseCompanion"
+        mc:Ignorable="d"
+        Title="Release Companion" Height="550" Width="750" WindowStartupLocation="CenterScreen" Activated="Window_Activated" ResizeMode="NoResize" Background="WhiteSmoke">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo/>
+    </Window.TaskbarItemInfo>
+    <Window.Resources>
+        <Style x:Key="{x:Type DataGridCell}" TargetType="{x:Type DataGridCell}" >
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="SteelBlue"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="10,10,10,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="450" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Height="40" Grid.Row="0" Grid.Column="0" Content="Release Companion" FontSize="24" FontWeight="ExtraBold" VerticalAlignment="Center" HorizontalContentAlignment="Left" />
+            <Grid Grid.Column="1" HorizontalAlignment="Right">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label Height="40" Grid.Row="0" Grid.Column="0" Content="Current User:" FontWeight="Bold" VerticalAlignment="Center" HorizontalContentAlignment="Right" />
+                <Label Name="userName" Height="40" Grid.Row="0" Grid.Column="1" HorizontalContentAlignment="Left" VerticalAlignment="Center" MouseDoubleClick="userName_MouseDoubleClick" />
+            </Grid>
+        </Grid>
+        <TabControl Grid.Row="1" Grid.ColumnSpan="2">
+            <TabItem Header="Environment Details">
+                <Grid Margin="10,10,10,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="320" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
+                    <DataGrid Name="environments_grid" Grid.Row="0" AutoGenerateColumns="False" AlternatingRowBackground="LightSteelBlue" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" >                        
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Serial Number" Binding="{Binding SerialNumber}" />
+                            <DataGridTextColumn Header="Environment Name" Binding="{Binding Name}" />
+                            <DataGridCheckBoxColumn Header="Backup ?" Binding="{Binding Backup}" />
+                            <DataGridCheckBoxColumn Header="Release ?" Binding="{Binding Release}" />
+                            <DataGridCheckBoxColumn Header="Script ?" Binding="{Binding ScriptRequired}" >
+                                <DataGridCheckBoxColumn.ElementStyle>
+                                    <Style TargetType="CheckBox">
+                                        <Setter Property="HorizontalAlignment" Value="Center" />
+                                        <Setter Property="IsEnabled" Value="False" />
+                                    </Style>
+                                </DataGridCheckBoxColumn.ElementStyle>
+                            </DataGridCheckBoxColumn>
+                            <DataGridTemplateColumn Header="Complete release">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Click="CompleteRelease">Complete release</Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Clear release">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Click="ClearRelease">Clear release</Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Name="Release_btn" Click="Button_Click" Content="Start Release" Grid.Row="1" Margin="100,10,100,10" />
+                    <ProgressBar Name="progressBar" Grid.Row="1" Visibility="Hidden" Margin="0,10,0,10" />
+                    <TextBlock Name="progressLabel" Grid.Row="2" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="AppSettings">
+                <Grid Margin="10,10,10,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="320" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90" />
+                        <ColumnDefinition Width="90" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <CheckBox Name="appSettingRequired" Content="Required?" Grid.Row="0" Click="appSettingRequired_Checked" />
+                    <DataGrid Name="appSettings_grid" Grid.Row="1" Grid.ColumnSpan="3" AutoGenerateColumns="False" AlternatingRowBackground="LightSteelBlue" CanUserAddRows="True" CanUserDeleteRows="True" SelectionMode="Extended">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Key" Width="200" Binding="{Binding Key}" />
+                            <DataGridTextColumn Header="Value" Width="200" Binding="{Binding Value}" />
+                            <DataGridTextColumn Header="Environments" Width="200" Binding="{Binding Environments}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="SQL Details">
+                <Grid Margin="10,10,10,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20" />
+                        <RowDefinition Height="300" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
+                    <DataGrid Name="sql_environments_grid" Grid.Row="1" AutoGenerateColumns="False" AlternatingRowBackground="LightSteelBlue" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" Margin="0,20,0,30" Grid.RowSpan="2" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Serial Number" Binding="{Binding SerialNumber}" />
+                            <DataGridTextColumn Header="Environment Name" Binding="{Binding Name}" />
+                            <DataGridCheckBoxColumn Header="Script ?" Binding="{Binding ScriptRequired}" />
+                            <DataGridTemplateColumn Header="Browse">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Click="getfiledetail">Browse</Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="File Path" Binding="{Binding FilePath}" />
+                            <DataGridTemplateColumn Header="Clear">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Click="ClearFile">Clear</Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Name="BrowseFile" Content="Browse File" Click="GetFileForBrowse" Grid.Row="0" Width="100" HorizontalAlignment="Left"/>
+                    <Button Name="sql_Execute" Click="sql_Execute_Click" Content="Execute" Grid.Row="2" Margin="100,25,100,35" Grid.RowSpan="2" />
+                    <ProgressBar Name="sqlprogressBar" Grid.Row="2" Visibility="Hidden" Margin="0,10,0,10" />
+                    <TextBlock Name="sqlprogressLabel" Grid.Row="3" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+
+</Window>
