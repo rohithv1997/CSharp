@@ -7,7 +7,8 @@
         public string BatchFileStart { get; set; }
         public string BatchFileStop { get; set; }
         public string ServerPath { get; set; }
-        public string BackupPath { get; set; }
+        public string AppBackupPath { get; set; }
+        public string WindowsServiceBackupPath { get; set; }
         public string AppURL { get; set; }
         public EnvironmentType EnvironmentType { get; set; }
         public ReleaseType ReleaseType { get; set; }

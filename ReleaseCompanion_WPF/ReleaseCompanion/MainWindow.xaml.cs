@@ -23,6 +23,7 @@ namespace ReleaseCompanion
         static bool _isWindowsServiceRequired;
         static string _lessorPortalReleasePath;
         static string _brokerPortalReleasePath;
+        static string _windowsServiceReleasePath;
 
         static string[] _foldersToCopy;
         static string[] _fileExtensionsToExclude;
@@ -134,6 +135,7 @@ namespace ReleaseCompanion
             _fileExtensionsToExclude = ReadAppSettings("FileExtensionsToExclude", string.Empty, Convert.ToString).Split(',');
             _brokerPortalReleasePath = ReadAppSettings("BrokerPortalPublishPath", string.Empty, Convert.ToString);
             _lessorPortalReleasePath = ReadAppSettings("LessorPortalPublishPath", string.Empty, Convert.ToString);
+            _windowsServiceReleasePath = ReadAppSettings("WindowsServicePublishPath", string.Empty, Convert.ToString);
             _isWindowsServiceRequired = ReadAppSettings("IsWindowsServiceRequired", false, Convert.ToBoolean);
             _clearOldBackups = ReadAppSettings("ClearOldBackups", false, Convert.ToBoolean);
             _numberOfBackupsToRetain = ReadAppSettings("NumberOfOldBackupsToRetain", 3, Convert.ToInt32);

@@ -193,7 +193,8 @@ namespace ReleaseCompanion
 
             foreach (var parameter in _backupParameters)
             {
-                Backup(parameter.ServerPath, parameter.BackupPath, _foldersToCopy);
+                Backup(parameter.ServerPath, parameter.AppBackupPath, _foldersToCopy);
+                Backup(parameter.ServerPath, parameter.WindowsServiceBackupPath,_foldersToCopy);
             }
 
             if (_isWindowsServiceRequired && _parameters.Any(x => x.EnvironmentType == EnvironmentType.LessorPortal && (x.ReleaseType == ReleaseType.ReleaseOnly || x.ReleaseType == ReleaseType.BackupandRelease)))

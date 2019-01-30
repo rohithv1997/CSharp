@@ -24,14 +24,15 @@ namespace ReleaseCompanion
                     param.EnvironmentType = FetchEnvironmentType(Convert.ToString(dr[2]));
                     param.ServerPath = Convert.ToString(dr[3]);
                     param.AppURL = Convert.ToString(dr[4]);
-                    param.BackupPath = Convert.ToString(dr[5]);
-                    var start = Convert.ToString(dr[6]);
+                    param.AppBackupPath = Convert.ToString(dr[5]);
+                    param.WindowsServiceBackupPath = Convert.ToString(dr[6]);
+                    var start = Convert.ToString(dr[7]);
                     param.BatchFileStart = start != "" ? start : "Invalid";
-                    var stop = Convert.ToString(dr[7]);
+                    var stop = Convert.ToString(dr[8]);
                     param.BatchFileStop = stop != "" ? stop : "Invalid";
-                    param.DBServerName = Convert.ToString(dr[8]);
-                    param.DBName = Convert.ToString(dr[9]);
-                    param.DBBackupLocation = Convert.ToString(dr[10]);
+                    param.DBServerName = Convert.ToString(dr[9]);
+                    param.DBName = Convert.ToString(dr[10]);
+                    param.DBBackupLocation = Convert.ToString(dr[11]);
 
                     _parameters.Add(param);
                 }
@@ -58,7 +59,8 @@ namespace ReleaseCompanion
             dt.Columns.Add("Environment Type");
             dt.Columns.Add("Server Path");
             dt.Columns.Add("App URL");
-            dt.Columns.Add("Backup Path");
+            dt.Columns.Add("App Backup Path");
+            dt.Columns.Add("WindowsService Backup Path");
             dt.Columns.Add("BatchFile Start");
             dt.Columns.Add("BatchFile Stop");
             dt.Columns.Add("Database Server");
@@ -82,6 +84,7 @@ namespace ReleaseCompanion
                 row[8] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 9]).Value2);
                 row[9] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 10]).Value2);
                 row[10] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 11]).Value2);
+                row[11] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 12]).Value2);
                 index++;
                 dt.Rows.Add(row);
             }
