@@ -10,7 +10,8 @@ namespace ReleaseCompanion
         public static List<Parameters> FetchDetailsFromExcel(string excelPath)
         {
             var _parameters = new List<Parameters>();
-            var fullPathToExcel = AppDomain.CurrentDomain.BaseDirectory + excelPath;
+            //var fullPathToExcel = AppDomain.CurrentDomain.BaseDirectory + excelPath;
+            string fullPathToExcel = excelPath;
             DataTable dt = GetDataTable(fullPathToExcel, "Paths");
 
             foreach (DataRow dr in dt.Rows)
