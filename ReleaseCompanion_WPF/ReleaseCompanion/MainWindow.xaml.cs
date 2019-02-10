@@ -23,7 +23,6 @@ namespace ReleaseCompanion
         static bool _isWindowsServiceRequired;
         static string _lessorPortalReleasePath;
         static string _brokerPortalReleasePath;
-        static string _windowsServiceReleasePath;
 
         static string[] _foldersToCopy;
         static string[] _fileExtensionsToExclude;
@@ -49,7 +48,8 @@ namespace ReleaseCompanion
 
         static bool _isAppSettingConvertorRequired;
 
-        static string _foldersForWindowsService, _filesForWindowsService;
+        static string[] _foldersForWindowsServiceBackup;
+        static string _filesForWindowsService;
 
         static LogFileHelper logHelper;
 
@@ -59,6 +59,7 @@ namespace ReleaseCompanion
 
         public MainWindow()
         {
+
             InitializeComponent();
             var user = WindowsIdentity.GetCurrent();
             userName.Content = user.Name;
@@ -76,6 +77,7 @@ namespace ReleaseCompanion
                 environments_grid.Columns[0].IsReadOnly = true;
                 environments_grid.Columns[1].IsReadOnly = true;
                 environments_grid.Columns[4].IsReadOnly = true;
+                environments_grid.Columns[5].IsReadOnly = true;
                 _isAppSettingConvertorRequired = false;
                 commonModifiedAppSettings = new List<AppSetting>();
                 appSettings_grid.Visibility = Visibility.Hidden;
@@ -135,7 +137,6 @@ namespace ReleaseCompanion
             _fileExtensionsToExclude = ReadAppSettings("FileExtensionsToExclude", string.Empty, Convert.ToString).Split(',');
             _brokerPortalReleasePath = ReadAppSettings("BrokerPortalPublishPath", string.Empty, Convert.ToString);
             _lessorPortalReleasePath = ReadAppSettings("LessorPortalPublishPath", string.Empty, Convert.ToString);
-            _windowsServiceReleasePath = ReadAppSettings("WindowsServicePublishPath", string.Empty, Convert.ToString);
             _isWindowsServiceRequired = ReadAppSettings("IsWindowsServiceRequired", false, Convert.ToBoolean);
             _clearOldBackups = ReadAppSettings("ClearOldBackups", false, Convert.ToBoolean);
             _numberOfBackupsToRetain = ReadAppSettings("NumberOfOldBackupsToRetain", 3, Convert.ToInt32);
@@ -143,8 +144,8 @@ namespace ReleaseCompanion
             _fileExtensionsToClean = ReadAppSettings("FileExtensionsToCleanUp", string.Empty, Convert.ToString).Split(',');
             _logFilePath = ReadAppSettings("LogFilePath", string.Empty, Convert.ToString);
             _excelPath = ReadAppSettings("ExcelPath", string.Empty, Convert.ToString);
-            _foldersForWindowsService = ReadAppSettings("FoldersToAdd", string.Empty, Convert.ToString);
             _filesForWindowsService = ReadAppSettings("FilesForWindowsServices", string.Empty, Convert.ToString);
+            _foldersForWindowsServiceBackup = ReadAppSettings("FoldersToCopyForWindowsServiceBackup", string.Empty, Convert.ToString).Split(',');
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -160,7 +161,11 @@ namespace ReleaseCompanion
                     environments_grid.IsEnabled = false;
                     appSettingRequired.IsEnabled = false;
                     appSettings_grid.IsEnabled = false;
-                    var max = _parameters.Where(x => x.ReleaseType == ReleaseType.BackupandRelease && x.EnvironmentType == EnvironmentType.LessorPortal).Count() * 3 + _parameters.Where(x => x.ReleaseType == ReleaseType.BackupandRelease && x.EnvironmentType == EnvironmentType.BrokerPortal).Count() * 2 + _parameters.Where(x => x.ReleaseType == ReleaseType.ReleaseOnly && x.EnvironmentType == EnvironmentType.LessorPortal).Count() * 2 + _parameters.Where(x => x.ReleaseType == ReleaseType.ReleaseOnly && x.EnvironmentType == EnvironmentType.BrokerPortal).Count() + _parameters.Where(x => x.ReleaseType == ReleaseType.BackupOnly).Count() + 1;
+                    var max = _parameters.Where(x => x.ReleaseType == ReleaseType.BackupandRelease && x.EnvironmentType == EnvironmentType.LessorPortal).Count() * 3
+                            + _parameters.Where(x => x.ReleaseType == ReleaseType.BackupandRelease && x.EnvironmentType == EnvironmentType.BrokerPortal).Count() * 2
+                            + _parameters.Where(x => x.ReleaseType == ReleaseType.ReleaseOnly && x.EnvironmentType == EnvironmentType.LessorPortal).Count() * 2
+                            + _parameters.Where(x => x.ReleaseType == ReleaseType.ReleaseOnly && x.EnvironmentType == EnvironmentType.BrokerPortal).Count()
+                            + _parameters.Where(x => x.ReleaseType == ReleaseType.BackupOnly).Count() + 1;
                     progressBar.Maximum = max;
                     progress = (double)1 / max;
                     TaskbarItemInfo.ProgressState = TaskbarItemProgressState.Normal;
@@ -386,6 +391,16 @@ namespace ReleaseCompanion
             {
                 Process.Start(url);
             }
+        }
+
+        private void FWRelease(object sender, RoutedEventArgs e)
+        {
+            ApplyFWRelease();
+        }
+
+        private void ApplyFWRelease()
+        {
+            throw new NotImplementedException();
         }
 
         private T ReadAppSettings<T>(string key, T defaultValue, Func<string, T> converter)

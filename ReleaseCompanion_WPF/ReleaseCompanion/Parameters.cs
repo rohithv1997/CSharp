@@ -6,7 +6,7 @@
         public string NickName { get; set; }
         public string BatchFileStart { get; set; }
         public string BatchFileStop { get; set; }
-        public string ServerPath { get; set; }
+        public string AppServerPath { get; set; }
         public string AppBackupPath { get; set; }
         public string WindowsServiceBackupPath { get; set; }
         public string AppURL { get; set; }
@@ -16,6 +16,8 @@
         public string DBServerName { get; set; }
         public string DBBackupLocation { get; set; }
         public string FilePath { get; set; }
+        public string FrameworkReleasePath { get; set; }
+        public string WindowsServiceServerPath { get; set; }
     }
 
     public class GridParam
@@ -27,6 +29,7 @@
         public bool ScriptRequired { get; set; }
         public bool IsLessorPortal { get; set; }
         public string FilePath { get; set; }
+        public bool IsFrameworkRelease { get; set; }
     }
 
     public enum EnvironmentType

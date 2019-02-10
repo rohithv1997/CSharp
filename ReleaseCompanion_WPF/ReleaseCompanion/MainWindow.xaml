@@ -49,8 +49,8 @@
                     <DataGrid Name="environments_grid" Grid.Row="0" AutoGenerateColumns="False" AlternatingRowBackground="LightSteelBlue" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" >                        
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Serial Number" Binding="{Binding SerialNumber}" />
-                            <DataGridTextColumn Header="Environment Name" Binding="{Binding Name}" />
-                            <DataGridCheckBoxColumn Header="Backup ?" Binding="{Binding Backup}" />
+                            <DataGridTextColumn Header="Environment Name" Binding="{Binding Name}"  />
+                            <DataGridCheckBoxColumn Header="Backup ?" Binding="{Binding Backup}" ></DataGridCheckBoxColumn>
                             <DataGridCheckBoxColumn Header="Release ?" Binding="{Binding Release}" />
                             <DataGridCheckBoxColumn Header="Script ?" Binding="{Binding ScriptRequired}" >
                                 <DataGridCheckBoxColumn.ElementStyle>
@@ -74,6 +74,7 @@
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
+                            <DataGridCheckBoxColumn Header="Framework release" Binding="{Binding FWRelease}"></DataGridCheckBoxColumn>
                         </DataGrid.Columns>
                     </DataGrid>
                     <Button Name="Release_btn" Click="Button_Click" Content="Start Release" Grid.Row="1" Margin="100,10,100,10" />
