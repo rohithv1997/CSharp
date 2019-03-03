@@ -1,0 +1,10 @@
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\bin\Debug\EF-ModelFirst.exe.config
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\bin\Debug\EF-ModelFirst.exe
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\bin\Debug\EF-ModelFirst.pdb
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\bin\Debug\EntityFramework.dll
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\bin\Debug\EntityFramework.xml
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\obj\Debug\EF-ModelFirst.csprojResolveAssemblyReference.cache
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\obj\Debug\EF-ModelFirst.exe
+D:\Training\LINQ\Trials\EF-ModelFirst\EF-ModelFirst\obj\Debug\EF-ModelFirst.pdb

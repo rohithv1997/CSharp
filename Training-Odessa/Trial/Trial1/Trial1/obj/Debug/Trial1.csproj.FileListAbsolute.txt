@@ -1,0 +1,9 @@
+D:\Training\C#\Trial1\Trial1\bin\Debug\Trial1.exe.config
+D:\Training\C#\Trial1\Trial1\bin\Debug\Trial1.exe
+D:\Training\C#\Trial1\Trial1\bin\Debug\Trial1.pdb
+D:\Training\C#\Trial1\Trial1\obj\Debug\Trial1.csprojResolveAssemblyReference.cache
+D:\Training\C#\Trial1\Trial1\obj\Debug\Trial1.exe
+D:\Training\C#\Trial1\Trial1\obj\Debug\Trial1.pdb
+D:\Training\C#\Trial\Trial1\Trial1\bin\Debug\Trial1.exe.config
+D:\Training\C#\Trial\Trial1\Trial1\obj\Debug\Trial1.exe
+D:\Training\C#\Trial\Trial1\Trial1\obj\Debug\Trial1.pdb

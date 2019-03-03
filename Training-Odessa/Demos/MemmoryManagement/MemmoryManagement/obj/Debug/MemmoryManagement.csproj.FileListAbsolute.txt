@@ -1,0 +1,9 @@
+D:\My-Demos\ToDelete\C#-Dec-17\MemmoryManagement\MemmoryManagement\bin\Debug\MemmoryManagement.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\MemmoryManagement\MemmoryManagement\bin\Debug\MemmoryManagement.exe
+D:\My-Demos\ToDelete\C#-Dec-17\MemmoryManagement\MemmoryManagement\bin\Debug\MemmoryManagement.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\MemmoryManagement\MemmoryManagement\obj\Debug\MemmoryManagement.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\MemmoryManagement\MemmoryManagement\obj\Debug\MemmoryManagement.exe
+D:\My-Demos\ToDelete\C#-Dec-17\MemmoryManagement\MemmoryManagement\obj\Debug\MemmoryManagement.pdb
+\\192.168.1.107\Shared\Demos\C#-Dec-17\MemmoryManagement\MemmoryManagement\bin\Debug\MemmoryManagement.exe.config
+\\192.168.1.107\Shared\Demos\C#-Dec-17\MemmoryManagement\MemmoryManagement\obj\Debug\MemmoryManagement.exe
+\\192.168.1.107\Shared\Demos\C#-Dec-17\MemmoryManagement\MemmoryManagement\obj\Debug\MemmoryManagement.pdb

@@ -1,0 +1,12 @@
+D:\Training\T4\Trials\FWModel\bin\Debug\FWModel.dll.config
+D:\Training\T4\Trials\FWModel\bin\Debug\FWModel.dll
+D:\Training\T4\Trials\FWModel\bin\Debug\FWModel.pdb
+D:\Training\T4\Trials\FWModel\obj\Debug\FWModel.dll
+D:\Training\T4\Trials\FWModel\obj\Debug\FWModel.pdb
+D:\Training\T4\Trials\FWModel\obj\Debug\FWModel.csprojResolveAssemblyReference.cache
+G:\Odessa-Training\Training\T4\Trials\FWModel\bin\Debug\FWModel.dll.config
+G:\Odessa-Training\Training\T4\Trials\FWModel\bin\Debug\FWModel.dll
+G:\Odessa-Training\Training\T4\Trials\FWModel\bin\Debug\FWModel.pdb
+G:\Odessa-Training\Training\T4\Trials\FWModel\obj\Debug\FWModel.csproj.CoreCompileInputs.cache
+G:\Odessa-Training\Training\T4\Trials\FWModel\obj\Debug\FWModel.dll
+G:\Odessa-Training\Training\T4\Trials\FWModel\obj\Debug\FWModel.pdb

@@ -12,7 +12,8 @@ namespace ReleaseCompanion
     {
         private void CreateWindowsServices(string publishedLocation)
         {
-            string tempPath = Path.Combine(publishedLocation, _foldersForWindowsService);
+            //string tempPath = Path.Combine(publishedLocation, _foldersForWindowsService);
+            string tempPath = publishedLocation;
             DirectoryInfo tempPathDir = new DirectoryInfo(tempPath);
 
 
@@ -157,7 +158,7 @@ namespace ReleaseCompanion
             else
             {
                 _environments.Append(" environment");
-            }            
+            }
             Clipboard.SetText("Team," + Environment.NewLine + "Please refrain from using " + _environments + " for a while as we are doing a release." + Environment.NewLine + Environment.NewLine + "Thanks!");
             TaskbarItemInfo.ProgressState = TaskbarItemProgressState.Paused;
             var rslt = MessageBox.Show(this, "Release message copied to Clipboard. Please send it to the Team.", "Information", MessageBoxButton.OK);
@@ -178,7 +179,7 @@ namespace ReleaseCompanion
             if (invalidBatchFileEnvironments.Any())
             {
                 TaskbarItemInfo.ProgressState = TaskbarItemProgressState.Error;
-                var result = MessageBox.Show("Windows service not stopped in the following environments " + invalidBatchFileEnvironments.ToCSV() + "\n Do you wish to continue?", "Confirm", MessageBoxButton.YesNo);                
+                var result = MessageBox.Show("Windows service not stopped in the following environments " + invalidBatchFileEnvironments.ToCSV() + "\n Do you wish to continue?", "Confirm", MessageBoxButton.YesNo);
                 if (result == MessageBoxResult.No)
                 {
                     progressLabel.Foreground = Brushes.Red;
@@ -193,15 +194,14 @@ namespace ReleaseCompanion
 
             foreach (var parameter in _backupParameters)
             {
-                Backup(parameter.ServerPath, parameter.AppBackupPath, _foldersToCopy);
-                Backup(parameter.ServerPath, parameter.WindowsServiceBackupPath,_foldersToCopy);
-            }
+                Backup(parameter.AppServerPath, parameter.AppBackupPath, _foldersToCopy);
+                Backup(parameter.WindowsServiceServerPath, parameter.WindowsServiceBackupPath,_foldersForWindowsServiceBackup);
 
-            if (_isWindowsServiceRequired && _parameters.Any(x => x.EnvironmentType == EnvironmentType.LessorPortal && (x.ReleaseType == ReleaseType.ReleaseOnly || x.ReleaseType == ReleaseType.BackupandRelease)))
-            {
-                CreateWindowsServices(_lessorPortalReleasePath);
+                if (_isWindowsServiceRequired && _parameters.Any(x => x.EnvironmentType == EnvironmentType.LessorPortal && (x.ReleaseType == ReleaseType.ReleaseOnly || x.ReleaseType == ReleaseType.BackupandRelease)))
+                {
+                    CreateWindowsServices(parameter.WindowsServiceServerPath);
+                }
             }
-
             var _releaseParameters = _parameters.Where(x => x.ReleaseType == ReleaseType.ReleaseOnly || x.ReleaseType == ReleaseType.BackupandRelease).ToList();
 
             if (_isAppSettingConvertorRequired)
@@ -212,11 +212,11 @@ namespace ReleaseCompanion
                     GetAppSettingsForEnvironment(parameter.SerialNumber);
                     if (parameter.EnvironmentType == EnvironmentType.BrokerPortal)
                     {
-                        AppSettingsConverter(_brokerPortalReleasePath, parameter.ServerPath, parameter.AppURL);
+                        AppSettingsConverter(_brokerPortalReleasePath, parameter.AppServerPath, parameter.AppURL);
                     }
                     else
                     {
-                        AppSettingsConverter(_lessorPortalReleasePath, parameter.ServerPath, parameter.AppURL, true);
+                        AppSettingsConverter(_lessorPortalReleasePath, parameter.AppServerPath, parameter.AppURL, true);
                     }
                 }
             }
@@ -238,11 +238,11 @@ namespace ReleaseCompanion
             {
                 if (parameter.EnvironmentType == EnvironmentType.BrokerPortal)
                 {
-                    Release(_brokerPortalReleasePath, parameter.ServerPath);
+                    Release(_brokerPortalReleasePath, parameter.AppServerPath);
                 }
                 else
                 {
-                    Release(_lessorPortalReleasePath, parameter.ServerPath);
+                    Release(_lessorPortalReleasePath, parameter.AppServerPath);
                 }
             }
 

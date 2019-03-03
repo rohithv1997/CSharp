@@ -1,0 +1,15 @@
+D:\My-Demos\ToDelete\C#-Dec-17\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.exe
+D:\My-Demos\ToDelete\C#-Dec-17\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.exe
+D:\My-Demos\ToDelete\C#-Dec-17\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.pdb
+\\192.168.1.107\Shared\Demos\C#-Dec-17\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.exe.config
+\\192.168.1.107\Shared\Demos\C#-Dec-17\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.exe
+\\192.168.1.107\Shared\Demos\C#-Dec-17\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.pdb
+D:\Training\C#\Demos\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.exe.config
+D:\Training\C#\Demos\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.exe
+D:\Training\C#\Demos\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.pdb
+D:\Training\C#\Demos\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.exe
+D:\Training\C#\Demos\AbstractDemo\AbstractDemo\bin\Debug\AbstractDemo.pdb
+D:\Training\C#\Demos\AbstractDemo\AbstractDemo\obj\Debug\AbstractDemo.csprojResolveAssemblyReference.cache

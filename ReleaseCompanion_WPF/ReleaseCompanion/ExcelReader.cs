@@ -10,8 +10,13 @@ namespace ReleaseCompanion
         public static List<Parameters> FetchDetailsFromExcel(string excelPath)
         {
             var _parameters = new List<Parameters>();
+<<<<<<< HEAD
             //var fullPathToExcel = AppDomain.CurrentDomain.BaseDirectory + excelPath;
             string fullPathToExcel = excelPath;
+=======
+            // var fullPathToExcel = AppDomain.CurrentDomain.BaseDirectory + excelPath;
+            var fullPathToExcel = excelPath;
+>>>>>>> 2f2bddf61deddb2d741ba1b897a104e138c6967f
             DataTable dt = GetDataTable(fullPathToExcel, "Paths");
 
             foreach (DataRow dr in dt.Rows)
@@ -23,17 +28,19 @@ namespace ReleaseCompanion
                     param.SerialNumber = Convert.ToInt32(dr[0]);
                     param.NickName = Convert.ToString(dr[1]);
                     param.EnvironmentType = FetchEnvironmentType(Convert.ToString(dr[2]));
-                    param.ServerPath = Convert.ToString(dr[3]);
-                    param.AppURL = Convert.ToString(dr[4]);
-                    param.AppBackupPath = Convert.ToString(dr[5]);
-                    param.WindowsServiceBackupPath = Convert.ToString(dr[6]);
-                    var start = Convert.ToString(dr[7]);
+                    param.AppServerPath = Convert.ToString(dr[3]);
+                    param.WindowsServiceServerPath = Convert.ToString(dr[4]);
+                    param.AppURL = Convert.ToString(dr[5]);
+                    param.AppBackupPath = Convert.ToString(dr[6]);
+                    param.WindowsServiceBackupPath = Convert.ToString(dr[7]);
+                    var start = Convert.ToString(dr[8]);
                     param.BatchFileStart = start != "" ? start : "Invalid";
-                    var stop = Convert.ToString(dr[8]);
+                    var stop = Convert.ToString(dr[9]);
                     param.BatchFileStop = stop != "" ? stop : "Invalid";
-                    param.DBServerName = Convert.ToString(dr[9]);
-                    param.DBName = Convert.ToString(dr[10]);
-                    param.DBBackupLocation = Convert.ToString(dr[11]);
+                    param.DBServerName = Convert.ToString(dr[10]);
+                    param.DBName = Convert.ToString(dr[11]);
+                    param.DBBackupLocation = Convert.ToString(dr[12]);
+                    param.FrameworkReleasePath = Convert.ToString(dr[13]);
 
                     _parameters.Add(param);
                 }
@@ -58,7 +65,8 @@ namespace ReleaseCompanion
             dt.Columns.Add("S.No");
             dt.Columns.Add("Nick Name");
             dt.Columns.Add("Environment Type");
-            dt.Columns.Add("Server Path");
+            dt.Columns.Add("App Server Path");
+            dt.Columns.Add("WindowsService Server Path");
             dt.Columns.Add("App URL");
             dt.Columns.Add("App Backup Path");
             dt.Columns.Add("WindowsService Backup Path");
@@ -67,6 +75,7 @@ namespace ReleaseCompanion
             dt.Columns.Add("Database Server");
             dt.Columns.Add("Database Name");
             dt.Columns.Add("Database Backup Location");
+            dt.Columns.Add("Framework Release location");
 
             DataRow row;
 
@@ -86,6 +95,8 @@ namespace ReleaseCompanion
                 row[9] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 10]).Value2);
                 row[10] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 11]).Value2);
                 row[11] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 12]).Value2);
+                row[12] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 13]).Value2);
+                row[13] = Convert.ToString(((Excel.Range)workSheet.Cells[rowIndex, 14]).Value2);
                 index++;
                 dt.Rows.Add(row);
             }

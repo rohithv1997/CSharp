@@ -1,0 +1,7 @@
+D:\Training\C#\EMS\Domain.DAL\bin\Debug\Domain.DAL.dll
+D:\Training\C#\EMS\Domain.DAL\bin\Debug\Domain.DAL.pdb
+D:\Training\C#\EMS\Domain.DAL\obj\Debug\Domain.DAL.dll
+D:\Training\C#\EMS\Domain.DAL\obj\Debug\Domain.DAL.pdb
+D:\Training\C#\EMS\Domain.DAL\obj\Debug\Domain.DAL.csprojResolveAssemblyReference.cache
+D:\Training\C#\EMS\Domain.DAL\bin\Debug\Domain.IDAL.dll
+D:\Training\C#\EMS\Domain.DAL\bin\Debug\Domain.IDAL.pdb

@@ -1,0 +1,12 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\bin\Debug\Delegate-Event-Demo.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\bin\Debug\Delegate-Event-Demo.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\bin\Debug\Delegate-Event-Demo.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\obj\Debug\Delegate-Event-Demo.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\obj\Debug\Delegate-Event-Demo.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\obj\Debug\Delegate-Event-Demo.pdb
+D:\Training\C#\Demos\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\bin\Debug\Delegate-Event-Demo.exe.config
+D:\Training\C#\Demos\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\obj\Debug\Delegate-Event-Demo.exe
+D:\Training\C#\Demos\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\obj\Debug\Delegate-Event-Demo.pdb
+D:\Training\C#\Demos\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\bin\Debug\Delegate-Event-Demo.exe
+D:\Training\C#\Demos\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\bin\Debug\Delegate-Event-Demo.pdb
+D:\Training\C#\Demos\C#-Dec-17\Delegate-Event-Demo\Delegate-Event-Demo\obj\Debug\Delegate-Event-Demo.csprojResolveAssemblyReference.cache

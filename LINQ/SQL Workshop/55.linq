@@ -1,0 +1,18 @@
+<Query Kind="Statements">
+  <Connection>
+    <ID>6bc231d2-6bc6-4a0d-a178-139819cb8301</ID>
+    <Persist>true</Persist>
+    <Server>.\SQL2016</Server>
+    <Database>AdventureWorks</Database>
+  </Connection>
+  <Output>DataGrids</Output>
+</Query>
+
+(from emp in Employees
+	join ea in EmployeeAddresses on emp.EmployeeID equals ea.EmployeeID
+	join a in Addresses on ea.AddressID equals a.AddressID
+	join sp in StateProvinces on a.StateProvinceID equals sp.StateProvinceID
+	select new{emp.EmployeeID,sp.Name})
+	.GroupBy(x=>x.Name)
+	.Select(det=>new{StateName=det.Key,Count=det.Count()})
+	.Dump();

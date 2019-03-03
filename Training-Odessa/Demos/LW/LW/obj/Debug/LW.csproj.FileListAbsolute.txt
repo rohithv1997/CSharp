@@ -1,0 +1,5 @@
+D:\My-Demos\ToDelete\C#-Dec-17\LW\LW\bin\Debug\LW.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\LW\LW\bin\Debug\LW.exe
+D:\My-Demos\ToDelete\C#-Dec-17\LW\LW\bin\Debug\LW.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\LW\LW\obj\Debug\LW.exe
+D:\My-Demos\ToDelete\C#-Dec-17\LW\LW\obj\Debug\LW.pdb

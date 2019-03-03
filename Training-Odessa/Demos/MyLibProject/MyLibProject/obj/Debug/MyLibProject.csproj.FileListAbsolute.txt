@@ -1,0 +1,5 @@
+D:\My-Demos\ToDelete\C#-Dec-17\MyLibProject\MyLibProject\bin\Debug\MyLibProject.dll
+D:\My-Demos\ToDelete\C#-Dec-17\MyLibProject\MyLibProject\bin\Debug\MyLibProject.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\MyLibProject\MyLibProject\obj\Debug\MyLibProject.dll
+D:\My-Demos\ToDelete\C#-Dec-17\MyLibProject\MyLibProject\obj\Debug\MyLibProject.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\MyLibProject\MyLibProject\obj\Debug\MyLibProject.csprojResolveAssemblyReference.cache

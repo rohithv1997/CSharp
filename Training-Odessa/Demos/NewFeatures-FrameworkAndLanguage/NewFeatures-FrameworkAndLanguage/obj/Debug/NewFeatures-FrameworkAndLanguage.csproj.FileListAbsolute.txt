@@ -1,0 +1,6 @@
+D:\My-Demos\ToDelete\C#-Dec-17\NewFeatures-FrameworkAndLanguage\NewFeatures-FrameworkAndLanguage\bin\Debug\NewFeatures-FrameworkAndLanguage.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\NewFeatures-FrameworkAndLanguage\NewFeatures-FrameworkAndLanguage\bin\Debug\NewFeatures-FrameworkAndLanguage.exe
+D:\My-Demos\ToDelete\C#-Dec-17\NewFeatures-FrameworkAndLanguage\NewFeatures-FrameworkAndLanguage\bin\Debug\NewFeatures-FrameworkAndLanguage.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\NewFeatures-FrameworkAndLanguage\NewFeatures-FrameworkAndLanguage\obj\Debug\NewFeatures-FrameworkAndLanguage.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\NewFeatures-FrameworkAndLanguage\NewFeatures-FrameworkAndLanguage\obj\Debug\NewFeatures-FrameworkAndLanguage.exe
+D:\My-Demos\ToDelete\C#-Dec-17\NewFeatures-FrameworkAndLanguage\NewFeatures-FrameworkAndLanguage\obj\Debug\NewFeatures-FrameworkAndLanguage.pdb

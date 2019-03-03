@@ -1,0 +1,11 @@
+D:\Training\C#\EMS\EMS\bin\Debug\EMS.exe.config
+D:\Training\C#\EMS\EMS\bin\Debug\EMS.exe
+D:\Training\C#\EMS\EMS\bin\Debug\EMS.pdb
+D:\Training\C#\EMS\EMS\bin\Debug\EmployeeLeaveManagement.dll
+D:\Training\C#\EMS\EMS\bin\Debug\EmployeeLeaveManagement.pdb
+D:\Training\C#\EMS\EMS\obj\Debug\EMS.csprojResolveAssemblyReference.cache
+D:\Training\C#\EMS\EMS\obj\Debug\EMS.exe
+D:\Training\C#\EMS\EMS\obj\Debug\EMS.pdb
+\\192.168.1.107\shared\C#-Dec-17\Rohith\EMS\Day2\EMS\bin\Debug\EMS.exe.config
+\\192.168.1.107\shared\C#-Dec-17\Rohith\EMS\Day2\EMS\obj\Debug\EMS.exe
+\\192.168.1.107\shared\C#-Dec-17\Rohith\EMS\Day2\EMS\obj\Debug\EMS.pdb

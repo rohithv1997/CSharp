@@ -10,17 +10,9 @@ namespace ReleaseCompanion
 {
     public partial class MainWindow : System.Windows.Window
     {
-        private void Backup(string sourcePath, string targetPath, string[] foldersToCopy)
+        private void Backup(string sourcePath, string targetPath, string[] foldersToCopy=null)
         {
-            DateTime today = DateTime.Today;
-            string currentDateString = today.ToMonthName() + " " + today.Year + "\\" + today.Day + " " + today.ToMonthName() + " " + today.Year;
-            var destPath = targetPath;
-            targetPath += "\\" + currentDateString;
-            progressLabel.Text = "Copying from " + sourcePath + ": ...";
-            logHelper.AppendToLogFile(DateTime.Now.ToLongTimeString() + " - Copying from " + sourcePath);
-            progressBar.Value++;
-            TaskbarItemInfo.ProgressValue = progressBar.Value * progress;
-            progressBar.Refresh();
+            string destPath = CreateBackupFolderParams(sourcePath, ref targetPath);
             try
             {
                 string desDir = DirectoryCopy(sourceDirName: sourcePath, destDirName: targetPath, foldersToCopy: foldersToCopy, isRoot: true, fileExtensionsToExclude: new string[] { });
@@ -39,6 +31,20 @@ namespace ReleaseCompanion
                 logHelper.AppendToLogFile(DateTime.Now.ToLongTimeString() + " - Error: " + e.Message);
                 progressLabel.Foreground = Brushes.Black;
             }
+        }
+
+        private string CreateBackupFolderParams(string sourcePath, ref string targetPath)
+        {
+            DateTime today = DateTime.Today;
+            string currentDateString = today.ToMonthName() + " " + today.Year + "\\" + today.Day + " " + today.ToMonthName() + " " + today.Year;
+            var destPath = targetPath;
+            targetPath += "\\" + currentDateString;
+            progressLabel.Text = "Copying from " + sourcePath + ": ...";
+            logHelper.AppendToLogFile(DateTime.Now.ToLongTimeString() + " - Copying from " + sourcePath);
+            progressBar.Value++;
+            TaskbarItemInfo.ProgressValue = progressBar.Value * progress;
+            progressBar.Refresh();
+            return destPath;
         }
 
         private string DirectoryCopy(string sourceDirName, string destDirName, string[] fileExtensionsToExclude, string[] foldersToCopy = null, bool isRoot = false, bool isRelease = false)

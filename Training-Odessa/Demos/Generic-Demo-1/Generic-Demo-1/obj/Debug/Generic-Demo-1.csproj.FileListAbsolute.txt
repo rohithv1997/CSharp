@@ -1,0 +1,3 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Generic-Demo-1\Generic-Demo-1\bin\Debug\Generic-Demo-1.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\Generic-Demo-1\Generic-Demo-1\obj\Debug\Generic-Demo-1.csprojResolveAssemblyReference.cache
+D:\Training\C#\Demos\Generic-Demo-1\Generic-Demo-1\bin\Debug\Generic-Demo-1.exe.config

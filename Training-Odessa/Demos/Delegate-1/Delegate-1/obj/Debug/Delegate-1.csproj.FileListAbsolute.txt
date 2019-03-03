@@ -1,0 +1,10 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-1\Delegate-1\bin\Debug\Delegate-1.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-1\Delegate-1\bin\Debug\Delegate-1.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-1\Delegate-1\obj\Debug\Delegate-1.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-1\Delegate-1\obj\Debug\Delegate-1.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-1\Delegate-1\obj\Debug\Delegate-1.pdb
+D:\Training\C#\Demos\C#-Dec-17\Delegate-1\Delegate-1\obj\Debug\Delegate-1.exe
+D:\Training\C#\Demos\C#-Dec-17\Delegate-1\Delegate-1\obj\Debug\Delegate-1.pdb
+D:\Training\C#\Demos\C#-Dec-17\Delegate-1\Delegate-1\bin\Debug\Delegate-1.exe
+D:\Training\C#\Demos\C#-Dec-17\Delegate-1\Delegate-1\bin\Debug\Delegate-1.pdb
+D:\Training\C#\Demos\C#-Dec-17\Delegate-1\Delegate-1\obj\Debug\Delegate-1.csprojResolveAssemblyReference.cache

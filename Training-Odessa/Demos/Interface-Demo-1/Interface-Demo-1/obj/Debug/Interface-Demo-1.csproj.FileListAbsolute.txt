@@ -1,0 +1,15 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\bin\Debug\Interface-Demo-1.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\bin\Debug\Interface-Demo-1.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\bin\Debug\Interface-Demo-1.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.pdb
+\\192.168.1.107\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\bin\Debug\Interface-Demo-1.exe.config
+\\192.168.1.107\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.exe
+\\192.168.1.107\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.pdb
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\bin\Debug\Interface-Demo-1.exe.config
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.exe
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.pdb
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\bin\Debug\Interface-Demo-1.exe
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\bin\Debug\Interface-Demo-1.pdb
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-1\Interface-Demo-1\obj\Debug\Interface-Demo-1.csprojResolveAssemblyReference.cache

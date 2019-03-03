@@ -1,0 +1,16 @@
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\MyLibProject.dll
+D:\My-Demos\ToDelete\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\MyLibProject.pdb
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\MyLibProject.dll
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\bin\Debug\MyLibProject.pdb
+\\192.168.1.107\Shared\Demos\C#-Dec-17\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache

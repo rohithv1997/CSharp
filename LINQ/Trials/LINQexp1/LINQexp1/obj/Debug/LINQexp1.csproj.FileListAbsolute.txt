@@ -1,0 +1,9 @@
+D:\Training\LINQ\LINQexp1\LINQexp1\bin\Debug\LINQexp1.exe.config
+D:\Training\LINQ\LINQexp1\LINQexp1\bin\Debug\LINQexp1.exe
+D:\Training\LINQ\LINQexp1\LINQexp1\bin\Debug\LINQexp1.pdb
+D:\Training\LINQ\LINQexp1\LINQexp1\obj\Debug\LINQexp1.csprojResolveAssemblyReference.cache
+D:\Training\LINQ\LINQexp1\LINQexp1\obj\Debug\LINQexp1.exe
+D:\Training\LINQ\LINQexp1\LINQexp1\obj\Debug\LINQexp1.pdb
+D:\Training\LINQ\Trials\LINQexp1\LINQexp1\bin\Debug\LINQexp1.exe.config
+D:\Training\LINQ\Trials\LINQexp1\LINQexp1\obj\Debug\LINQexp1.exe
+D:\Training\LINQ\Trials\LINQexp1\LINQexp1\obj\Debug\LINQexp1.pdb

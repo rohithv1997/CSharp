@@ -1,0 +1,9 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\bin\Debug\Delegate-GUI.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\bin\Debug\Delegate-GUI.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\bin\Debug\Delegate-GUI.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\obj\Debug\Delegate-GUI.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\obj\Debug\Delegate_GUI.Form1.resources
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\obj\Debug\Delegate_GUI.Properties.Resources.resources
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\obj\Debug\Delegate-GUI.csproj.GenerateResource.Cache
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\obj\Debug\Delegate-GUI.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Delegate-GUI\Delegate-GUI\obj\Debug\Delegate-GUI.pdb

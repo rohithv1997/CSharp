@@ -1,0 +1,10 @@
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\bin\Debug\EF-DBFirst.exe.config
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\bin\Debug\EF-DBFirst.exe
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\bin\Debug\EF-DBFirst.pdb
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\bin\Debug\EntityFramework.dll
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\bin\Debug\EntityFramework.xml
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\obj\Debug\EF-DBFirst.csprojResolveAssemblyReference.cache
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\obj\Debug\EF-DBFirst.exe
+D:\Training\LINQ\Trials\EF-DBFirst\EF-DBFirst\obj\Debug\EF-DBFirst.pdb

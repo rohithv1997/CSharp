@@ -1,0 +1,6 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-4\Interface-Demo-4\bin\Debug\Interface-Demo-4.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-4\Interface-Demo-4\bin\Debug\Interface-Demo-4.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-4\Interface-Demo-4\bin\Debug\Interface-Demo-4.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-4\Interface-Demo-4\obj\Debug\Interface-Demo-4.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-4\Interface-Demo-4\obj\Debug\Interface-Demo-4.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-4\Interface-Demo-4\obj\Debug\Interface-Demo-4.pdb

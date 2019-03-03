@@ -1,0 +1,5 @@
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo2\ExceptionHandling-Demo2\bin\Debug\ExceptionHandling-Demo2.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo2\ExceptionHandling-Demo2\bin\Debug\ExceptionHandling-Demo2.exe
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo2\ExceptionHandling-Demo2\bin\Debug\ExceptionHandling-Demo2.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo2\ExceptionHandling-Demo2\obj\Debug\ExceptionHandling-Demo2.exe
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo2\ExceptionHandling-Demo2\obj\Debug\ExceptionHandling-Demo2.pdb

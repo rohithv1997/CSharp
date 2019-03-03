@@ -1,0 +1,5 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Inheritance-Constructor\Inheritance-Constructor\bin\Debug\Inheritance-Constructor.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\Inheritance-Constructor\Inheritance-Constructor\bin\Debug\Inheritance-Constructor.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Inheritance-Constructor\Inheritance-Constructor\bin\Debug\Inheritance-Constructor.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Inheritance-Constructor\Inheritance-Constructor\obj\Debug\Inheritance-Constructor.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Inheritance-Constructor\Inheritance-Constructor\obj\Debug\Inheritance-Constructor.pdb

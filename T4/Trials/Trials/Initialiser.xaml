@@ -1,0 +1,25 @@
+﻿<EntityCollections xmlns="clr-namespace:EntityFactory;assembly=FWModel">
+    <EntityCollections.Entities>
+        <Entity Name="Customer" Description="Customer Details">
+            <Entity.Attributes>
+                <Attribute Name="FirstName" dataType="NameType" Label="First Name"></Attribute>
+                <Attribute Name="Age" dataType="IntType" Label="Age"></Attribute>
+            </Entity.Attributes>
+        </Entity>
+        <Entity Name="Order" Description="Order Details">
+            <Entity.Attributes>
+                <Attribute Name="ItemName" dataType="NameType" Label="Item Name"></Attribute>
+                <Attribute Name="Quantity" dataType="IntType" Label="Qty"></Attribute>
+            </Entity.Attributes>
+        </Entity>
+        <Entity Name="Employee" Description="Employee Details">
+            <Entity.Attributes>
+                <Attribute Name="EmployeeName" dataType="NameType" Label="Employee Name"></Attribute>
+                <Attribute Name="EmployeeID" dataType="IntType" Label="Employee ID"></Attribute>
+                <Attribute Name="ContactNumber" dataType="ContactNumberType" Label="Contact"></Attribute>
+                <Attribute Name="MailID" dataType="MailIDType" Label="Official Mail ID"></Attribute>
+            </Entity.Attributes>
+        </Entity>
+    </EntityCollections.Entities>
+    
+</EntityCollections>

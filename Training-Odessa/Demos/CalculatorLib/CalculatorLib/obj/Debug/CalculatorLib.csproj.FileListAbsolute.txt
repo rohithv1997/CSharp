@@ -1,0 +1,5 @@
+D:\My-Demos\ToDelete\C#-Dec-17\CalculatorLib\CalculatorLib\bin\Debug\CalculatorLib.dll
+D:\My-Demos\ToDelete\C#-Dec-17\CalculatorLib\CalculatorLib\bin\Debug\CalculatorLib.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.dll
+D:\My-Demos\ToDelete\C#-Dec-17\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.pdb

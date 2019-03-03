@@ -1,0 +1,9 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\bin\Debug\Interface-Demo-2.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\bin\Debug\Interface-Demo-2.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\bin\Debug\Interface-Demo-2.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\obj\Debug\Interface-Demo-2.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\obj\Debug\Interface-Demo-2.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\obj\Debug\Interface-Demo-2.pdb
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\bin\Debug\Interface-Demo-2.exe.config
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\obj\Debug\Interface-Demo-2.exe
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\Interface-Demo-2\Interface-Demo-2\obj\Debug\Interface-Demo-2.pdb

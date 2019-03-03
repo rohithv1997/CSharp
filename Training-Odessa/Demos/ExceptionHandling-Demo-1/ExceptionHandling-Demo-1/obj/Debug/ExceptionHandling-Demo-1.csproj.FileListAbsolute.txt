@@ -1,0 +1,6 @@
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo-1\ExceptionHandling-Demo-1\bin\Debug\ExceptionHandling-Demo-1.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo-1\ExceptionHandling-Demo-1\bin\Debug\ExceptionHandling-Demo-1.exe
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo-1\ExceptionHandling-Demo-1\bin\Debug\ExceptionHandling-Demo-1.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo-1\ExceptionHandling-Demo-1\obj\Debug\ExceptionHandling-Demo-1.csprojResolveAssemblyReference.cache
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo-1\ExceptionHandling-Demo-1\obj\Debug\ExceptionHandling-Demo-1.exe
+D:\My-Demos\ToDelete\C#-Dec-17\ExceptionHandling-Demo-1\ExceptionHandling-Demo-1\obj\Debug\ExceptionHandling-Demo-1.pdb

@@ -1,0 +1,10 @@
+F:\Training\C#\Code\EMS\Domain.Entity\bin\Debug\Domain.Entity.dll
+F:\Training\C#\Code\EMS\Domain.Entity\bin\Debug\Domain.Entity.pdb
+F:\Training\C#\Code\EMS\Domain.Entity\obj\Debug\Domain.Entity.csprojResolveAssemblyReference.cache
+F:\Training\C#\Code\EMS\Domain.Entity\obj\Debug\Domain.Entity.csproj.CoreCompileInputs.cache
+F:\Training\C#\Code\EMS\Domain.Entity\obj\Debug\Domain.Entity.dll
+F:\Training\C#\Code\EMS\Domain.Entity\obj\Debug\Domain.Entity.pdb
+D:\Training\C#\EMS\Domain.Entity\bin\Debug\Domain.Entity.dll
+D:\Training\C#\EMS\Domain.Entity\bin\Debug\Domain.Entity.pdb
+D:\Training\C#\EMS\Domain.Entity\obj\Debug\Domain.Entity.dll
+D:\Training\C#\EMS\Domain.Entity\obj\Debug\Domain.Entity.pdb

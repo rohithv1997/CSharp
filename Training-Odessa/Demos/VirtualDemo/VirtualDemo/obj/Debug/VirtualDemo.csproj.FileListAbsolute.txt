@@ -1,0 +1,12 @@
+D:\My-Demos\ToDelete\C#-Dec-17\VirtualDemo\VirtualDemo\bin\Debug\VirtualDemo.exe.config
+D:\My-Demos\ToDelete\C#-Dec-17\VirtualDemo\VirtualDemo\bin\Debug\VirtualDemo.exe
+D:\My-Demos\ToDelete\C#-Dec-17\VirtualDemo\VirtualDemo\bin\Debug\VirtualDemo.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\VirtualDemo\VirtualDemo\obj\Debug\VirtualDemo.exe
+D:\My-Demos\ToDelete\C#-Dec-17\VirtualDemo\VirtualDemo\obj\Debug\VirtualDemo.pdb
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\VirtualDemo\VirtualDemo\bin\Debug\VirtualDemo.exe.config
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\VirtualDemo\VirtualDemo\obj\Debug\VirtualDemo.exe
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\VirtualDemo\VirtualDemo\obj\Debug\VirtualDemo.pdb
+\\LW-DINOOP\Shared\Demos\C#-Dec-17\VirtualDemo\VirtualDemo\obj\Debug\VirtualDemo.csprojResolveAssemblyReference.cache
+\\192.168.1.107\Shared\Demos\C#-Dec-17\VirtualDemo\VirtualDemo\bin\Debug\VirtualDemo.exe.config
+\\192.168.1.107\Shared\Demos\C#-Dec-17\VirtualDemo\VirtualDemo\obj\Debug\VirtualDemo.exe
+\\192.168.1.107\Shared\Demos\C#-Dec-17\VirtualDemo\VirtualDemo\obj\Debug\VirtualDemo.pdb

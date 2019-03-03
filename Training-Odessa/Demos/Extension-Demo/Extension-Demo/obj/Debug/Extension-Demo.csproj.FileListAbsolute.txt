@@ -1,0 +1,4 @@
+D:\My-Demos\ToDelete\C#-Dec-17\Extension-Demo\Extension-Demo\bin\Debug\Extension-Demo.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Extension-Demo\Extension-Demo\obj\Debug\Extension-Demo.pdb
+D:\My-Demos\ToDelete\C#-Dec-17\Extension-Demo\Extension-Demo\bin\Debug\Extension-Demo.exe
+D:\My-Demos\ToDelete\C#-Dec-17\Extension-Demo\Extension-Demo\obj\Debug\Extension-Demo.exe

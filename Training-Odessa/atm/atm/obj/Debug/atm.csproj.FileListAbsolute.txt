@@ -1,0 +1,13 @@
+D:\Training\C#\atm\atm\bin\Debug\atm.exe.config
+D:\Training\C#\atm\atm\bin\Debug\atm.exe
+D:\Training\C#\atm\atm\bin\Debug\atm.pdb
+D:\Training\C#\atm\atm\obj\Debug\atm.exe
+D:\Training\C#\atm\atm\obj\Debug\atm.pdb
+D:\Training\C#\atm\atm\obj\Debug\atm.csprojResolveAssemblyReference.cache
+G:\Odessa-Training\Training\C#\atm\atm\bin\Debug\atm.exe.config
+G:\Odessa-Training\Training\C#\atm\atm\bin\Debug\atm.exe
+G:\Odessa-Training\Training\C#\atm\atm\bin\Debug\atm.pdb
+G:\Odessa-Training\Training\C#\atm\atm\obj\Debug\atm.csprojResolveAssemblyReference.cache
+G:\Odessa-Training\Training\C#\atm\atm\obj\Debug\atm.csproj.CoreCompileInputs.cache
+G:\Odessa-Training\Training\C#\atm\atm\obj\Debug\atm.exe
+G:\Odessa-Training\Training\C#\atm\atm\obj\Debug\atm.pdb
