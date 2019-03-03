@@ -1,0 +1,36 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ assembly name="System.Xml" #>
+<#@ import namespace="System.Xml" #>
+<#@ assembly name="System.Xaml" #>
+<#@ import namespace="System.Xaml" #>
+<#@ assembly name="D:\Training\T4\Trials\FWModel\bin\Debug\FWModel.dll" #>
+<#@ import namespace="EntityFactory" #>
+<#@ output extension=".cs" #>
+using DataTypes;
+using EnumTypes;
+namespace EntityModelFW
+{
+<#
+var entitycoll=(EntityCollections)XamlServices.Load(@"G:\Odessa-Training\Training\T4\Trials\Trials\Initialiser.xaml");
+foreach(var entity in entitycoll.Entities)
+		{
+#>
+public class <#=entity.Name #>
+	{
+	<#
+		foreach(var attribute in entity.Attributes)
+			{
+	#>
+	public <#=attribute.dataType #> <#=attribute.Name #> { get; set; }
+	<#	
+	}
+#>
+}
+<#
+}
+#>
+}

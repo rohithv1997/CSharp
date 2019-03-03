@@ -1,0 +1,37 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ assembly name="System.Xml" #>
+<#@ import namespace="System.Xml" #>
+<#@ assembly name="System.Xaml" #>
+<#@ import namespace="System.Xaml" #>
+<#@ assembly name="D:\Demos\2018\LINQ\ModelGenerator\MetaModel\bin\Debug\MetaModel.dll" #>
+<#@ import namespace="EntityFactory" #>
+<#@ output extension=".cs" #>
+using DataTypes;
+using EnumTypes;
+namespace EntityModel
+{
+<#
+    var entitytypes=(EntityTypes)XamlServices.Load(@"D:\Demos\2018\LINQ\ModelGenerator\ModelGenerator\EntityTypes.xaml");
+	foreach(var entity in entitytypes.Entities)
+	       {
+#>
+public class <#=entity.Name#>
+   {
+  <#
+      foreach(var attribute in entity.Attributes)
+	       {
+
+  #>
+  public <#=attribute.dataType#> <#=attribute.Name#>{get;set;}
+  <#
+   }
+   #>
+   }
+   <#
+   }
+   #>
+   }

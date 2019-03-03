@@ -1,0 +1,8 @@
+D:\Training\T4\Trials\Trials\obj\Debug\Trials.csprojResolveAssemblyReference.cache
+D:\Training\T4\Trials\Trials\bin\Debug\Trials.exe.config
+D:\Training\T4\Trials\Trials\bin\Debug\Trials.exe
+D:\Training\T4\Trials\Trials\bin\Debug\Trials.pdb
+D:\Training\T4\Trials\Trials\bin\Debug\FWModel.dll
+D:\Training\T4\Trials\Trials\bin\Debug\FWModel.pdb
+D:\Training\T4\Trials\Trials\obj\Debug\Trials.exe
+D:\Training\T4\Trials\Trials\obj\Debug\Trials.pdb
