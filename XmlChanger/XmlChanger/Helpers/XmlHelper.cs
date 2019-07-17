@@ -24,42 +24,61 @@ namespace XmlChanger
 
         public string FetchValueFromNode(EngineNodeHolder node)
         {
-            if (node.CallbackValue != null) return node.CallbackValue;
+            switch (node.engineNodeOptions)
+            {
+                case EngineNodeOptions.CallbackValue: return FetchValueForCallbackValue(node.Value);
+                default: return FetchValueForOtherOptions(node);
+            }
+        }
+
+        private string FetchValueForOtherOptions(EngineNodeHolder node)
+        {
             using (StringReader s = new StringReader(xmlString))
             {
-                XDocument xdoc;
-                xdoc = XDocument.Load(s);
+                XDocument xdoc = XDocument.Load(s);
                 var desc = xdoc.Descendants(node.EngineNode).ToHashSet();
-                var nodevalue = desc.Select(x => x.Value).ElementAt(node.NodePosition ?? 0);
-                ParseDateNode(node.EngineNode, ref nodevalue);
-                return nodevalue;
-            }
-        }
-
-        private void ParseDateNode(string node, ref string nodevalue)
-        {
-            if (node != "_Date") return;
-            nodevalue = DateTime.ParseExact(nodevalue, "yyyy-MM-dd", CultureInfo.InvariantCulture).ToString("dd/MM/yyyy", CultureInfo.InvariantCulture);
-        }
-
-        [Obsolete]
-        public void ConvertToXDocument(string xmlString)
-        {
-            XDocument xdoc;
-            using (StringReader s = new StringReader(xmlString))
-            {
-                xdoc = XDocument.Load(s);
-                foreach (XElement element in xdoc.Descendants())
+                var nodes = desc.Select(x => x.Value);
+                switch (node.engineNodeOptions)
                 {
-                    Console.WriteLine(element.Name + "--" + element.Value);
+                    case EngineNodeOptions.Date: return FetchValueForDate(node.EngineNode, ref nodes);
+                    case EngineNodeOptions.EngineNode: return FetchValueForEngineNode(ref nodes);
+                    case EngineNodeOptions.LinePosition: return FetchValueForLinePosition(node.Value, ref nodes);
+                    case EngineNodeOptions.NodeCount: return FetchValueForNodeCount(ref nodes);
+                    case EngineNodeOptions.NodePosition: return FetchValueForNodePosition(node.Value, ref nodes);
+                    default: return String.Empty;
                 }
-                var desc = xdoc.Descendants("_Date").ToHashSet();
-                XElement output;
-                var d2 = desc.Select(x => x.Value).FirstOrDefault();
-                var dt = DateTime.ParseExact(d2, "yyyy-MM-dd", CultureInfo.InvariantCulture);
-                Console.WriteLine(dt.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture));
             }
-            Console.ReadKey();
+        }
+
+        private string FetchValueForCallbackValue(string nodevalue)
+        {
+            return nodevalue;
+        }
+
+        private string FetchValueForDate(string engineNode, ref IEnumerable<string> nodes)
+        {
+            return DateTime.ParseExact(nodes.FirstOrDefault(), "yyyy-MM-dd", CultureInfo.InvariantCulture)
+                        .ToString("dd/MM/yyyy", CultureInfo.InvariantCulture);
+        }
+
+        private string FetchValueForEngineNode(ref IEnumerable<string> nodes)
+        {
+            return nodes.FirstOrDefault();
+        }
+
+        private string FetchValueForLinePosition(string index, ref IEnumerable<string> nodes)
+        {
+            return nodes.FirstOrDefault().Split('\n').ElementAt(Convert.ToInt32(index));
+        }
+
+        private string FetchValueForNodeCount(ref IEnumerable<string> nodes)
+        {
+            return nodes.Count().ToString();
+        }
+
+        private string FetchValueForNodePosition(string nodePosition, ref IEnumerable<string> nodes)
+        {
+            return nodes.ElementAt(Convert.ToInt32(nodePosition));
         }
     }
 }

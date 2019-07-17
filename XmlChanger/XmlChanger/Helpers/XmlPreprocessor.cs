@@ -12,7 +12,7 @@ namespace XmlChanger
     public class XmlPreprocessor
     {
         private static XmlPreprocessor _instance;
-        public static XmlPreprocessor Instance => _instance ?? (_instance = new XmlPreprocessor()); 
+        public static XmlPreprocessor Instance => _instance ?? (_instance = new XmlPreprocessor());
 
         private XmlPreprocessor()
         {
@@ -20,21 +20,23 @@ namespace XmlChanger
 
         public string GetXml()
         {
-            var xmlString = File.ReadAllText(@"D:\Code\XmlChanger\XmlChanger\abby.xml", Encoding.Default);
+            var rootPath = AppDomain.CurrentDomain.BaseDirectory;
+            var FilesFolder = Directory.GetParent(Directory.GetParent(Directory.GetParent(rootPath).ToString()).ToString());
+            var xmlString = File.ReadAllText(FilesFolder + @"\Files\abby.xml", Encoding.Default);
             var cleanString = CleanXmlFromEngine(xmlString);
             return cleanString;
         }
 
         public string CleanXmlFromEngine(string engineXmlString)
         {
-            XmlDocument engineXmlDocument = new XmlDocument();
-            return CheckXmlIsValid(ref engineXmlString, ref engineXmlDocument) ? engineXmlString : RemoveInvalidCharacters(engineXmlString);
+            return CheckXmlIsValid(ref engineXmlString) ? engineXmlString : RemoveInvalidCharacters(engineXmlString);
         }
 
-        private bool CheckXmlIsValid(ref string engineXmlString, ref XmlDocument engineXmlDocument)
+        private bool CheckXmlIsValid(ref string engineXmlString)
         {
             try
             {
+                XmlDocument engineXmlDocument = new XmlDocument();
                 engineXmlDocument.Load(engineXmlString);
                 return true;
             }
@@ -54,7 +56,6 @@ namespace XmlChanger
 
         private void RemoveEscapeSequences(ref string newString)
         {
-            newString = newString.Replace("\n", " ");
             newString = newString.Replace("\r", String.Empty);
             newString = newString.Replace("\t", String.Empty);
         }

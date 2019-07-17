@@ -22,27 +22,26 @@ namespace XmlChanger
             XmlPreprocessorInstance = XmlPreprocessor.Instance;
             NodeMap = new Dictionary<string, EngineNodeHolder>();
         }
-
-
-        private void BuildNodeMap()
-        {
-            NodeMap.Add("ContractType", new EngineNodeHolder(CallbackValue: "Lease"));
-            NodeMap.Add("LegalEntity.Name", new EngineNodeHolder(EngineNode: "_Customer"));
-            NodeMap.Add("Customer.Party.PartyName", new EngineNodeHolder(EngineNode: "_ShipContact", LinePosition: 2));
-            NodeMap.Add("Vendor.Party.PartyName", new EngineNodeHolder(EngineNode: "_CompanyName1"));
-            NodeMap.Add("InvoiceNumber", new EngineNodeHolder(EngineNode: "_DocumentRef"));
-            NodeMap.Add("Alias", new EngineNodeHolder(EngineNode: "_CallRef"));
-            NodeMap.Add("InvoiceDate", new EngineNodeHolder(EngineNode: "_Date"));
-            NodeMap.Add("DueDate", new EngineNodeHolder(EngineNode: "_Date"));
-            NodeMap.Add("Currency.Name", new EngineNodeHolder(CallbackValue: "ZAR"));
-            NodeMap.Add("AllowCreateAssets", new EngineNodeHolder(CallbackValue: "true"));
-            NodeMap.Add("InvoiceTotal", new EngineNodeHolder(EngineNode: "_Total", NodePosition: 10));
-        }
-
         public dynamic TransformOcrXmlToEntityXml(string engineXmlString)
         {
             BuildNodeMap();
             return CreateDeserializedDataSet(engineXmlString);
+        }
+        private void BuildNodeMap()
+        {
+            NodeMap.Add("ContractType", new EngineNodeHolder(EngineNode: null, EngineNodeOptions.CallbackValue, "Lease"));
+            NodeMap.Add("LegalEntity.Name", new EngineNodeHolder(EngineNode: "_Customer"));
+            NodeMap.Add("Customer.Party.PartyName", new EngineNodeHolder(EngineNode: "_ShipContact", EngineNodeOptions.LinePosition, "2"));
+            NodeMap.Add("Vendor.Party.PartyName", new EngineNodeHolder(EngineNode: "_CompanyName1"));
+            NodeMap.Add("InvoiceNumber", new EngineNodeHolder(EngineNode: "_DocumentRef"));
+            NodeMap.Add("Alias", new EngineNodeHolder(EngineNode: "_CallRef"));
+            NodeMap.Add("InvoiceDate", new EngineNodeHolder(EngineNode: "_Date", EngineNodeOptions.Date));
+            NodeMap.Add("DueDate", new EngineNodeHolder(EngineNode: "_Date", EngineNodeOptions.Date));
+            NodeMap.Add("Currency.Name", new EngineNodeHolder(EngineNode: null, EngineNodeOptions.CallbackValue, "ZAR"));
+            NodeMap.Add("ContractCurrency.Name", new EngineNodeHolder(EngineNode: null, EngineNodeOptions.CallbackValue, "ZAR"));
+            NodeMap.Add("InvoiceTotal", new EngineNodeHolder(EngineNode: "_Total", EngineNodeOptions.NodePosition, "10"));
+            NodeMap.Add("NumberOfAssets", new EngineNodeHolder(EngineNode: "_LineItems", EngineNodeOptions.NodeCount));
+            NodeMap.Add("AllowCreateAssets", new EngineNodeHolder(EngineNode: null, EngineNodeOptions.CallbackValue, "true"));
         }
 
         private dynamic CreateDeserializedDataSet(string engineXmlString)
@@ -59,9 +58,9 @@ namespace XmlChanger
             deserializedDataSet =
                 new XElement("PayableInvoices",
                     new XElement("PayableInvoice",
-                        from keyvaluePair in NodeMap
-                        select new XElement(keyvaluePair.Key,
-                            XmlHelperInstance.FetchValueFromNode(NodeMap.GetValueOrDefault(keyvaluePair.Key))
+                        NodeMap.Where(keyvaluePair => keyvaluePair.Value.IsParentAttribute)
+                            .Select(keyvaluePair => new XElement(keyvaluePair.Key,
+                                XmlHelperInstance.FetchValueFromNode(NodeMap.GetValueOrDefault(keyvaluePair.Key)))
                         )
                     )
                 );

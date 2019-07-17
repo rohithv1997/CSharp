@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Helpers\CollectionHelper.cs" />
     <Compile Include="Model\EngineNodeHolder.cs" />
+    <Compile Include="Model\EngineNodeOptions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Helpers\XmlHelper.cs" />
