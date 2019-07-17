@@ -1,0 +1,172 @@
+<PayableInvoices>
+  <PayableInvoice>
+    <ContractType> </ContractType> 
+    <LineofBusiness.Name> </LineofBusiness.Name>
+    <LegalEntity.Name> </LegalEntity.Name>
+    <CostCenter.CostCenter> </CostCenter.CostCenter>
+    <Branch.BranchName> </Branch.BranchName>
+    <InstrumentType.Code> </InstrumentType.Code>
+    <InstrumentType.Portfolio.Name> </InstrumentType.Portfolio.Name>
+    <Customer.Party.PartyNumber> </Customer.Party.PartyNumber>
+    <Customer.Party.PartyName> </Customer.Party.PartyName>
+    <Vendor.Party.PartyName> </Vendor.Party.PartyName>
+    <Vendor.Party.PartyNumber> </Vendor.Party.PartyNumber>
+    <InvoiceNumber> </InvoiceNumber>
+    <OriginalInvoiceNumber> </OriginalInvoiceNumber>
+    <Alias> </Alias>
+    <InvoiceDate> </InvoiceDate>
+    <DueDate> </DueDate>
+    <PostDate> </PostDate>
+    <Currency.Name> </Currency.Name>
+    <AssetCostPayableCode.Name> </AssetCostPayableCode.Name>
+    <Contract.SequenceNumber> </Contract.SequenceNumber>
+    <ContractCurrency.Name> </ContractCurrency.Name>
+    <InitialExchangeRate> </InitialExchangeRate>
+    <RemitTo.Name> </RemitTo.Name>
+    <RemitTo.ReceiptType> </RemitTo.ReceiptType>
+    <RemitTo.Wiretype> </RemitTo.Wiretype>
+    <RemitTo.UniqueIdentifier> </RemitTo.UniqueIdentifier>
+    <IsSalesLeaseBack> </IsSalesLeaseBack>
+    <PayableInvoiceDocumentInstance> </PayableInvoiceDocumentInstance>
+    <Comment> </Comment>
+    <InvoiceTotal> </InvoiceTotal>
+    <NumberOfAssets> </NumberOfAssets>
+    <AllowCreateAssets> </AllowCreateAssets>
+    <!--If <target.CreateAssetsMode>-->
+    <PayableInvoiceAssets>
+      <PayableInvoiceAsset>
+        <PayableInvoiceAssets.Asset.Alias> </PayableInvoiceAssets.Asset.Alias>
+        <!--If <target.CreateAssetsMode>-->
+        <Asset.Alias> </Asset.Alias>
+        <Asset.Description> </Asset.Description>
+        <Asset.SerialNumber> </Asset.SerialNumber>
+        <Asset.Quantity> </Asset.Quantity>
+        <Asset.ParentAsset.Alias> </Asset.ParentAsset.Alias>
+        <Asset.GrossVehicleWeight> </Asset.GrossVehicleWeight>
+        <Asset.WeightMeasure> </Asset.WeightMeasure>
+        <Asset.AcquisitionDate> </Asset.AcquisitionDate>
+        <Asset.InServiceDate> </Asset.InServiceDate>
+        <Asset.AssetUsage.Usage> </Asset.AssetUsage.Usage>
+        <Asset.AssetUsage.Portfolio.Name> </Asset.AssetUsage.Portfolio.Name>
+        <Asset.SaleLeasebackCode.Code> </Asset.SaleLeasebackCode.Code>
+        <Asset.PurchaseOrderDate> </Asset.PurchaseOrderDate>
+        <Asset.CustomerAssetNumber> </Asset.CustomerAssetNumber>
+        <Asset.VendorOrderNumber> </Asset.VendorOrderNumber>
+        <Asset.ModelYear> </Asset.ModelYear>
+        <Asset.CustomerPurchaseOrderNumber> </Asset.CustomerPurchaseOrderNumber>
+        <Asset.IsTaxExempt> </Asset.IsTaxExempt>
+        <Asset.IsElectronicallyDelivered> </Asset.IsElectronicallyDelivered>
+        <AcquisitionCost> </AcquisitionCost>
+        <Asset.InventoryRemarketer.Party.PartyNumber> </Asset.InventoryRemarketer.Party.PartyNumber>
+        <Asset.InventoryRemarketer.Party.PartyName> </Asset.InventoryRemarketer.Party.PartyName>
+        <Asset.AssetCatalog.CollateralCode> </Asset.AssetCatalog.CollateralCode>
+        <Asset.AssetCatalog.Portfolio.Name> </Asset.AssetCatalog.Portfolio.Name>
+        <Asset.Manufacturer.Name> </Asset.Manufacturer.Name>
+        <Asset.Manufacturer.Portfolio.Name> </Asset.Manufacturer.Portfolio.Name>
+        <Asset.IsManufacturerOverride> </Asset.IsManufacturerOverride>
+        <Asset.ManufacturerOverride> </Asset.ManufacturerOverride>
+        <Asset.Make.Name> </Asset.Make.Name>
+        <Asset.Make.Manufacturer.Name> </Asset.Make.Manufacturer.Name>
+        <Asset.Make.Manufacturer.Portfolio.Name> </Asset.Make.Manufacturer.Portfolio.Name>
+        <Asset.Make.Portfolio.Name> </Asset.Make.Portfolio.Name>
+        <Asset.Model.Name> </Asset.Model.Name>
+        <Asset.Model.Make.Name> </Asset.Model.Make.Name>
+        <Asset.Model.Make.Manufacturer.Name> </Asset.Model.Make.Manufacturer.Name>
+        <Asset.Model.Make.Manufacturer.Portfolio.Name> </Asset.Model.Make.Manufacturer.Portfolio.Name>
+        <Asset.Model.Make.Portfolio.Name> </Asset.Model.Make.Portfolio.Name>
+        <Asset.Model.Portfolio.Name> </Asset.Model.Portfolio.Name>
+        <Asset.Type.Name> </Asset.Type.Name>
+        <Asset.Type.Portfolio.Name> </Asset.Type.Portfolio.Name>
+        <Asset.AssetCategory.Name> </Asset.AssetCategory.Name>
+        <Asset.AssetCategory.Portfolio.Name> </Asset.AssetCategory.Portfolio.Name>
+        <Asset.Product.AssetCategory.Name> </Asset.Product.AssetCategory.Name>
+        <Asset.Product.AssetCategory.Portfolio.Name> </Asset.Product.AssetCategory.Portfolio.Name>
+        <Asset.Product.Name> </Asset.Product.Name>
+        <Asset.State.Country.LongName> </Asset.State.Country.LongName>
+        <Asset.State.LongName> </Asset.State.LongName>
+        <Asset.State.ShortName> </Asset.State.ShortName>
+        <Asset.FinancialType> </Asset.FinancialType>
+        <Asset.UsageCondition> </Asset.UsageCondition>
+        <Asset.VendorAssetCategory.Name> </Asset.VendorAssetCategory.Name>
+        <Asset.VendorAssetCategory.Portfolio.Name> </Asset.VendorAssetCategory.Portfolio.Name>
+        <Asset.SalesTaxExemptionLevel.Name> </Asset.SalesTaxExemptionLevel.Name>
+        <Asset.IsEligibleForPropertyTax> </Asset.IsEligibleForPropertyTax>
+        <Asset.PropertyTaxDate> </Asset.PropertyTaxDate>
+        <Asset.PropertyTaxReportCode.Code> </Asset.PropertyTaxReportCode.Code>
+        <Asset.PropertyTaxReportCode.Portfolio.Name> </Asset.PropertyTaxReportCode.Portfolio.Name>
+        <Asset.OwnershipStatus> </Asset.OwnershipStatus>
+        <Asset.AssetGLDetail.AssetBookValueAdjustmentGLTemplate.Name> </Asset.AssetGLDetail.AssetBookValueAdjustmentGLTemplate.Name>
+        <Asset.AssetGLDetail.BookDepreciationGLTemplate.Name> </Asset.AssetGLDetail.BookDepreciationGLTemplate.Name>
+        <Asset.IsVehicle> </Asset.IsVehicle>
+        <IsActive> </IsActive>
+        <Asset.AssetLocations>
+          <Asset.AssetLocation>
+            <Asset.AssetLocations.Location.Customer.ActivationDate> </Asset.AssetLocations.Location.Customer.ActivationDate>
+            <Asset.AssetLocations.Location.Code> </Asset.AssetLocations.Location.Code>
+            <Location.Code> </Location.Code>
+            <EffectiveFromDate> </EffectiveFromDate>
+            <IsFLStampTaxExempt> </IsFLStampTaxExempt>
+            <IsActive> </IsActive>
+          </Asset.AssetLocation>
+        </Asset.AssetLocations>        
+      </PayableInvoiceAsset>
+    </PayableInvoiceAssets>
+    <PayableInvoiceOtherCosts>
+      <PayableInvoiceOtherCost>
+        <PayableInvoiceOtherCosts.PayableInvoice.InvoiceNumber> </PayableInvoiceOtherCosts.PayableInvoice.InvoiceNumber>
+        <PayableInvoiceOtherCosts.Contract.SequenceNumber> </PayableInvoiceOtherCosts.Contract.SequenceNumber>
+        <PayableInvoiceOtherCosts.OtherCostCode.Name> </PayableInvoiceOtherCosts.OtherCostCode.Name>
+        <OtherCostCode.Name> </OtherCostCode.Name>
+        <AllocationMethod> </AllocationMethod>
+        <Description> </Description>
+        <CostType.Name> </CostType.Name>
+        <Amount> </Amount>
+        <IsPrepaidUpfrontTax> </IsPrepaidUpfrontTax>
+        <Vendor.Party.PartyName> </Vendor.Party.PartyName>
+        <Vendor.Party.PartyNumber> </Vendor.Party.PartyNumber>
+        <PayableRemitTo.Name> </PayableRemitTo.Name>
+        <PayableRemitTo.ReceiptType> </PayableRemitTo.ReceiptType>
+        <PayableRemitTo.Wiretype> </PayableRemitTo.Wiretype>
+        <PayableRemitTo.UniqueIdentifier> </PayableRemitTo.UniqueIdentifier>
+        <OtherCostPayableCode.Name> </OtherCostPayableCode.Name>
+        <AssociateAssets> </AssociateAssets>
+        <IsActive> </IsActive>
+        <!--If <target.EnableReceivableDetailsPanel>-->
+        <DueDate> </DueDate>
+        <BillTo.Name> </BillTo.Name>
+        <Location.Code> </Location.Code>
+        <Contract.SequenceNumber> </Contract.SequenceNumber>
+        <ReceivableCode.Name> </ReceivableCode.Name>
+        <RemitTo.Name> </RemitTo.Name>
+        <RemitTo.ReceiptType> </RemitTo.ReceiptType>
+        <RemitTo.Wiretype> </RemitTo.Wiretype>
+        <RemitTo.UniqueIdentifier> </RemitTo.UniqueIdentifier>
+        <!--If <target.EnableProgressLoanTakeDownPanel>-->
+        <ProgressFunding.PayableInvoice.InvoiceNumber> </ProgressFunding.PayableInvoice.InvoiceNumber>
+        <ProgressFunding.Contract.SequenceNumber> </ProgressFunding.Contract.SequenceNumber>
+        <ProgressFunding.OtherCostCode.Name> </ProgressFunding.OtherCostCode.Name>
+        <!--If <target.EnableSpecificCostAdjustmentPanel>-->
+        <Asset.Alias> </Asset.Alias>
+        <IsUpfit> </IsUpfit>
+        <!--If <target.UpfitMode>-->
+        <AssetFeature.Alias> </AssetFeature.Alias>
+        <AssetFeature.SerialNumber> </AssetFeature.SerialNumber>
+        <AssetFeature.Description> </AssetFeature.Description>
+        <AssetFeature.Quantity> </AssetFeature.Quantity>
+        <AssetFeature.AssetCatalog.CollateralCode> </AssetFeature.AssetCatalog.CollateralCode>
+        <AssetFeature.AssetCatalog.Portfolio.Name> </AssetFeature.AssetCatalog.Portfolio.Name>
+        <AssetFeature.Type.Name> </AssetFeature.Type.Name>
+        <AssetFeature.Type.Portfolio.Name> </AssetFeature.Type.Portfolio.Name>
+        <PayableInvoiceOtherCostDetails>
+          <PayableInvoiceOtherCostDetail>
+            <PayableInvoiceOtherCostDetails.PayableInvoiceAsset.Asset.Alias> </PayableInvoiceOtherCostDetails.PayableInvoiceAsset.Asset.Alias>
+            <!--If <target.PIOCD_IsInCreateMode>-->
+            <PayableInvoiceAsset.Asset.Alias> </PayableInvoiceAsset.Asset.Alias>
+            <Amount> </Amount>
+            <IsActive> </IsActive>
+          </PayableInvoiceOtherCostDetail>
+        </PayableInvoiceOtherCostDetails>
+      </PayableInvoiceOtherCost>
+    </PayableInvoiceOtherCosts>
+  </PayableInvoice>
+</PayableInvoices>

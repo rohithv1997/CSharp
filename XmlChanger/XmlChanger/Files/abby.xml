@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Documents xmlns:form="http://www.abbyy.com/FlexiCapture/Schemas/Export/FormData.xsd" xmlns:addData="http://www.abbyy.com/FlexiCapture/Schemas/Export/AdditionalFormData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<_Format1:_Format1 addData:DocumentState="Correct" addData:ImagePath="INV307.tif" xmlns:_Format1="http://www.abbyy.com/FlexiCapture/Schemas/Export/Format1.xsd">
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="000000">TN221C</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="00000000000000000000000">Cyan Toner for C227 287</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="000000">TN221K</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="00000000000000000000000000000000">A8K3150 Black Toner for C227 287</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="000000">TN221M</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="00000000000000000000000000">Magenta Toner for C227 287</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="000000">TN221Y</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="0000000000000000000000000">Yellow Toner for C227 287</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="0000">C287</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="00000000000000000">C287 - 7027500186</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="00000000">72296.12</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="00000000">72296.12</_NetPrice>
+			<_Total addData:SuspiciousSymbols="00000000">83140.54</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="000000">DF-628</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="000000000000000">Document Feeder</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="00000">ND227</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="0000000000000000">Melamine Cabinet</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="00000000">12-00722</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="000000000000000">Surge Protector</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="000000">FK-513</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="00000000000000000000000000000">Fax Kit (B227 and C227 Range)</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_LineItems>
+			<_ItemCode addData:SuspiciousSymbols="000000">FS-533</_ItemCode>
+			<_ItemDescription addData:SuspiciousSymbols="00000000000000000000000000">Inner Finisher (50 Sheets)</_ItemDescription>
+			<_Quantity addData:SuspiciousSymbols="0">1</_Quantity>
+			<_UnitPrice addData:SuspiciousSymbols="0">0</_UnitPrice>
+			<_NetPrice addData:SuspiciousSymbols="0">0</_NetPrice>
+			<_Total addData:SuspiciousSymbols="0">0</_Total>
+			<_Discount xsi:nil="true"/>
+		</_LineItems>
+		<_CompanyName1 addData:SuspiciousSymbols="0000000000000000000000000000">Docutech Solutions (Pty) Ltd</_CompanyName1>
+		<_RegNo addData:SuspiciousSymbols="000000000000">201206021507</_RegNo>
+		<_VatNo addData:SuspiciousSymbols="0000000000">4330262181</_VatNo>
+		<_FaxNo addData:SuspiciousSymbols="000000000000">086 245 3762</_FaxNo>
+		<_TelNo addData:SuspiciousSymbols="000000000000">0861 777 077</_TelNo>
+		<_Address1 addData:SuspiciousSymbols="0000000000000000000000000000000000000000000000000000000000000" addData:RecognizedValue="Stand 603 Unit 2 37 Robberg Street Pretoria South Africa 0054">Stand 603 Unit 2
+37 Robberg Street
+Pretoria
+South Africa
+0054</_Address1>
+		<_Address2 addData:SuspiciousSymbols="0000000000000000000000000000000000000000000000000000" addData:RecognizedValue="PO Box 11857 Silver Lakes Pretoria South Africa 0054">PO Box 11857
+Silver Lakes
+Pretoria
+South Africa
+0054</_Address2>
+		<_DocumentRef addData:SuspiciousSymbols="000000000">IN0000307</_DocumentRef>
+		<_Date addData:SuspiciousSymbols="0000000000">2018-07-27</_Date>
+		<_AccountManager addData:SuspiciousSymbols="000000000000">Pierre Spies</_AccountManager>
+		<_YourRef addData:SuspiciousSymbols="0000000">KM C287</_YourRef>
+		<_CallRef addData:SuspiciousSymbols="000000000">CN0000980</_CallRef>
+		<_SalesPerson addData:SuspiciousSymbols="000000000000000">Vicky Vermeulen</_SalesPerson>
+		<_Attention addData:SuspiciousSymbols="00000000000000000">Carina Du Plessis</_Attention>
+		<_CustCode addData:SuspiciousSymbols="0000000">SUN0001</_CustCode>
+		<_Customer addData:SuspiciousSymbols="0000000000000000">Sunlyn (Pty) Ltd</_Customer>
+		<_CustVatNo addData:SuspiciousSymbols="0000000000">4410120689</_CustVatNo>
+		<_SubTotal addData:SuspiciousSymbols="00000100">72296.12</_SubTotal>
+		<_TotalVat addData:SuspiciousSymbols="00000000">10844.42</_TotalVat>
+		<_Total addData:SuspiciousSymbols="00000000">83140.54</_Total>
+		<_ShipContact addData:SuspiciousSymbols="000000000000000000000000000000000000000000000000000000000000000000000000000" addData:RecognizedValue="Lucas Bennett Coetzee RAS0001 Rasimone Engineering Supplies and Services CC">Lucas Bennett Coetzee
+RAS0001
+Rasimone Engineering Supplies and Services CC</_ShipContact>
+	</_Format1:_Format1>
+</form:Documents>

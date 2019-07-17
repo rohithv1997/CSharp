@@ -1,0 +1,7 @@
+D:\Code\XmlChanger\XmlChanger\obj\Debug\XmlChanger.csprojAssemblyReference.cache
+D:\Code\XmlChanger\XmlChanger\obj\Debug\XmlChanger.csproj.CoreCompileInputs.cache
+D:\Code\XmlChanger\XmlChanger\bin\Debug\XmlChanger.exe.config
+D:\Code\XmlChanger\XmlChanger\bin\Debug\XmlChanger.exe
+D:\Code\XmlChanger\XmlChanger\bin\Debug\XmlChanger.pdb
+D:\Code\XmlChanger\XmlChanger\obj\Debug\XmlChanger.exe
+D:\Code\XmlChanger\XmlChanger\obj\Debug\XmlChanger.pdb
