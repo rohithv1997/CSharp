@@ -55,8 +55,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Files\" />
+    <Content Include="Files\abby.xml" />
+    <Content Include="Files\LW.xml" />
+    <Content Include="Files\PIData.xml" />
+    <Content Include="Files\string.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
