@@ -12,9 +12,9 @@ namespace XmlChanger.Model
         public string Value { get; set; }
         public string EngineNode { get; set; }
         public bool IsParentAttribute { get; set; }
-        
-        public EngineNodeHolder(string EngineNode, EngineNodeOptions engineNodeOptions = EngineNodeOptions.EngineNode, string Value = null
-            ,bool IsParentAttribute=true)
+
+        public EngineNodeHolder(string EngineNode, EngineNodeOptions engineNodeOptions = EngineNodeOptions.EngineNode, string Value = null, 
+            bool IsParentAttribute = true)
         {
             this.EngineNode = EngineNode;
             this.Value = Value;

@@ -7,6 +7,7 @@
         LinePosition,
         CallbackValue,
         NodeCount,
-        Date
+        Date,
+        ChildEntityPointer
     }
 }

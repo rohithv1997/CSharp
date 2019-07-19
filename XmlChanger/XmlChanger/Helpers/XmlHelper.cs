@@ -22,7 +22,7 @@ namespace XmlChanger
             this.xmlString = xmlString;
         }
 
-        public string FetchValueFromNode(EngineNodeHolder node)
+        public string FetchValueFromNodeForParent(EngineNodeHolder node)
         {
             switch (node.engineNodeOptions)
             {
@@ -31,9 +31,18 @@ namespace XmlChanger
             }
         }
 
-        private string FetchValueForOtherOptions(EngineNodeHolder node)
+        public string FetchValueFromNodeForChild(EngineNodeHolder node, XElement childNode)
         {
-            using (StringReader s = new StringReader(xmlString))
+            switch (node.engineNodeOptions)
+            {
+                case EngineNodeOptions.CallbackValue: return FetchValueForCallbackValue(node.Value);
+                default: return FetchValueForOtherOptions(node, childNode.ConvertToString());
+            }
+        }
+
+        private string FetchValueForOtherOptions(EngineNodeHolder node, string nodeString = null)
+        {
+            using (StringReader s = new StringReader(nodeString ?? xmlString))
             {
                 XDocument xdoc = XDocument.Load(s);
                 var desc = xdoc.Descendants(node.EngineNode).ToHashSet();

@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\CollectionHelper.cs" />
+    <Compile Include="Helpers\ExtensionMethods.cs" />
     <Compile Include="Model\EngineNodeHolder.cs" />
     <Compile Include="Model\EngineNodeOptions.cs" />
     <Compile Include="Program.cs" />
