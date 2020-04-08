@@ -4,7 +4,6 @@ G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\bin\Debug\netcoreapp2.
 G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\bin\Debug\netcoreapp2.1\dotNetCoreProject1.dll
 G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\bin\Debug\netcoreapp2.1\dotNetCoreProject1.pdb
 G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\obj\Debug\netcoreapp2.1\dotNetCoreProject1.csprojAssemblyReference.cache
-G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\obj\Debug\netcoreapp2.1\dotNetCoreProject1.csproj.CoreCompileInputs.cache
 G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\obj\Debug\netcoreapp2.1\dotNetCoreProject1.AssemblyInfoInputs.cache
 G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\obj\Debug\netcoreapp2.1\dotNetCoreProject1.AssemblyInfo.cs
 G:\Rohith\Coding\C#\dotNetCoreProject1\dotNetCoreProject1\obj\Debug\netcoreapp2.1\dotNetCoreProject1.dll

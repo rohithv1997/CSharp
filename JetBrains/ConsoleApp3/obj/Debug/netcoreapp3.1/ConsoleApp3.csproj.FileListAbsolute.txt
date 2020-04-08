@@ -1,0 +1,11 @@
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.exe
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.deps.json
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.json
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.dev.json
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.dll
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.pdb
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.csprojAssemblyReference.cache
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfoInputs.cache
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfo.cs
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.dll
+G:\Rohith\Coding\C#\JetBrains\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.pdb

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Rohith\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Rohith\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Major Project-DedupeDrive.-2139875811.00" t="ExcludeRecursive" />
+    <e p="G:\Rohith\Coding\C#\Major Project-DedupeDrive" t="IncludeFlat">
+      <e p="Major Project-DedupeDrive.sln" t="IncludeFlat" />
+    </e>
+    <e p="G:\Rohith\Coding\Major Project-DedupeDrive" t="IncludeRecursive">
+      <e p="AdminHome.aspx" t="Include" />
+      <e p="AdminHome.aspx.cs" t="Include" />
+      <e p="App_Data" t="Include">
+        <e p="PublishProfiles" t="Include">
+          <e p="Publish.pubxml" t="Include" />
+        </e>
+      </e>
+      <e p="ChangePassword.aspx" t="Include" />
+      <e p="ChangePassword.aspx.cs" t="Include" />
+      <e p="css" t="Include">
+        <e p="bootstrap-social.css" t="Include" />
+        <e p="font-awesome.min.css" t="Include" />
+        <e p="templatemo_style.css" t="Include" />
+      </e>
+      <e p="data" t="Include">
+        <e p="flot-data.js" t="Include" />
+        <e p="morris-data.js" t="Include" />
+      </e>
+      <e p="decrypt" t="Include" />
+      <e p="Default.aspx" t="Include" />
+      <e p="Default.aspx.cs" t="Include" />
+      <e p="dist" t="Include">
+        <e p="css" t="Include">
+          <e p="sb-admin-2.css" t="Include" />
+          <e p="sb-admin-2.min.css" t="Include" />
+        </e>
+        <e p="js" t="Include">
+          <e p="sb-admin-2.js" t="Include" />
+          <e p="sb-admin-2.min.js" t="Include" />
+        </e>
+      </e>
+      <e p="encrypt" t="Include" />
+      <e p="fonts" t="Include">
+        <e p="App_Data" t="Include">
+          <e p="PublishProfiles" t="Include" />
+        </e>
+        <e p="fontawesome-webfont.eot" t="Include" />
+        <e p="fontawesome-webfont.svg" t="Include" />
+        <e p="fontawesome-webfont.ttf" t="Include" />
+        <e p="fontawesome-webfont.woff" t="Include" />
+        <e p="FontAwesome.otf" t="Include" />
+      </e>
+      <e p="ForgotPassword.aspx" t="Include" />
+      <e p="ForgotPassword.aspx.cs" t="Include" />
+      <e p="js" t="Include">
+        <e p="bootstrap.min.js" t="Include" />
+        <e p="jquery-1.11.1.min.js" t="Include" />
+        <e p="sb-admin-2.js" t="Include" />
+      </e>
+      <e p="less" t="Include">
+        <e p="mixins.less" t="Include" />
+        <e p="sb-admin-2.less" t="Include" />
+        <e p="variables.less" t="Include" />
+      </e>
+      <e p="packages.config" t="Include" />
+      <e p="temp" t="Include" />
+      <e p="templatemo_style.css" t="Include" />
+      <e p="upload" t="Include" />
+      <e p="UploadFiles.aspx" t="Include" />
+      <e p="UploadFiles.aspx.cs" t="Include" />
+      <e p="UserHome.aspx" t="Include" />
+      <e p="UserHome.aspx.cs" t="Include" />
+      <e p="UserLogin.aspx" t="Include" />
+      <e p="UserLogin.aspx.cs" t="Include" />
+      <e p="UserRegister.aspx" t="Include" />
+      <e p="UserRegister.aspx.cs" t="Include" />
+      <e p="vendor" t="Include">
+        <e p="bootstrap" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap.css" t="Include" />
+            <e p="bootstrap.min.css" t="Include" />
+          </e>
+          <e p="fonts" t="Include">
+            <e p="glyphicons-halflings-regular.eot" t="Include" />
+            <e p="glyphicons-halflings-regular.svg" t="Include" />
+            <e p="glyphicons-halflings-regular.ttf" t="Include" />
+            <e p="glyphicons-halflings-regular.woff" t="Include" />
+            <e p="glyphicons-halflings-regular.woff2" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="bootstrap.js" t="Include" />
+            <e p="bootstrap.min.js" t="Include" />
+          </e>
+        </e>
+        <e p="bootstrap-social" t="Include">
+          <e p="bootstrap-social.css" t="Include" />
+          <e p="bootstrap-social.less" t="Include" />
+          <e p="bootstrap-social.scss" t="Include" />
+        </e>
+        <e p="datatables" t="Include">
+          <e p="css" t="Include">
+            <e p="dataTables.bootstrap.css" t="Include" />
+            <e p="dataTables.bootstrap.min.css" t="Include" />
+            <e p="dataTables.bootstrap4.css" t="Include" />
+            <e p="dataTables.bootstrap4.min.css" t="Include" />
+            <e p="dataTables.foundation.css" t="Include" />
+            <e p="dataTables.foundation.min.css" t="Include" />
+            <e p="dataTables.jqueryui.css" t="Include" />
+            <e p="dataTables.jqueryui.min.css" t="Include" />
+            <e p="dataTables.material.css" t="Include" />
+            <e p="dataTables.material.min.css" t="Include" />
+            <e p="dataTables.semanticui.css" t="Include" />
+            <e p="dataTables.semanticui.min.css" t="Include" />
+            <e p="dataTables.uikit.css" t="Include" />
+            <e p="dataTables.uikit.min.css" t="Include" />
+            <e p="jquery.dataTables.css" t="Include" />
+            <e p="jquery.dataTables.min.css" t="Include" />
+            <e p="jquery.dataTables_themeroller.css" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="favicon.ico" t="Include" />
+            <e p="sort_asc.png" t="Include" />
+            <e p="sort_asc_disabled.png" t="Include" />
+            <e p="sort_both.png" t="Include" />
+            <e p="sort_desc.png" t="Include" />
+            <e p="sort_desc_disabled.png" t="Include" />
+            <e p="Sorting icons.psd" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="dataTables.bootstrap.js" t="Include" />
+            <e p="dataTables.bootstrap.min.js" t="Include" />
+            <e p="dataTables.bootstrap4.js" t="Include" />
+            <e p="dataTables.bootstrap4.min.js" t="Include" />
+            <e p="dataTables.foundation.js" t="Include" />
+            <e p="dataTables.foundation.min.js" t="Include" />
+            <e p="dataTables.jqueryui.js" t="Include" />
+            <e p="dataTables.jqueryui.min.js" t="Include" />
+            <e p="dataTables.material.js" t="Include" />
+            <e p="dataTables.material.min.js" t="Include" />
+            <e p="dataTables.semanticui.js" t="Include" />
+            <e p="dataTables.semanticui.min.js" t="Include" />
+            <e p="dataTables.uikit.js" t="Include" />
+            <e p="dataTables.uikit.min.js" t="Include" />
+            <e p="jquery.dataTables.js" t="Include" />
+            <e p="jquery.dataTables.min.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+          </e>
+        </e>
+        <e p="datatables-plugins" t="Include">
+          <e p="dataTables.bootstrap.css" t="Include" />
+          <e p="dataTables.bootstrap.js" t="Include" />
+          <e p="dataTables.bootstrap.min.js" t="Include" />
+          <e p="index.html" t="Include" />
+        </e>
+        <e p="datatables-responsive" t="Include">
+          <e p="dataTables.responsive.css" t="Include" />
+          <e p="dataTables.responsive.js" t="Include" />
+          <e p="dataTables.responsive.scss" t="Include" />
+        </e>
+        <e p="flot" t="Include">
+          <e p="excanvas.js" t="Include" />
+          <e p="excanvas.min.js" t="Include" />
+          <e p="jquery.colorhelpers.js" t="Include" />
+          <e p="jquery.flot.canvas.js" t="Include" />
+          <e p="jquery.flot.categories.js" t="Include" />
+          <e p="jquery.flot.crosshair.js" t="Include" />
+          <e p="jquery.flot.errorbars.js" t="Include" />
+          <e p="jquery.flot.fillbetween.js" t="Include" />
+          <e p="jquery.flot.image.js" t="Include" />
+          <e p="jquery.flot.js" t="Include" />
+          <e p="jquery.flot.navigate.js" t="Include" />
+          <e p="jquery.flot.pie.js" t="Include" />
+          <e p="jquery.flot.resize.js" t="Include" />
+          <e p="jquery.flot.selection.js" t="Include" />
+          <e p="jquery.flot.stack.js" t="Include" />
+          <e p="jquery.flot.symbol.js" t="Include" />
+          <e p="jquery.flot.threshold.js" t="Include" />
+          <e p="jquery.flot.time.js" t="Include" />
+          <e p="jquery.js" t="Include" />
+        </e>
+        <e p="flot-tooltip" t="Include">
+          <e p="jquery.flot.tooltip.js" t="Include" />
+          <e p="jquery.flot.tooltip.min.js" t="Include" />
+          <e p="jquery.flot.tooltip.source.js" t="Include" />
+        </e>
+        <e p="font-awesome" t="Include">
+          <e p="css" t="Include">
+            <e p="font-awesome.css" t="Include" />
+            <e p="font-awesome.css.map" t="Include" />
+            <e p="font-awesome.min.css" t="Include" />
+          </e>
+          <e p="fonts" t="Include">
+            <e p="fontawesome-webfont.eot" t="Include" />
+            <e p="fontawesome-webfont.svg" t="Include" />
+            <e p="fontawesome-webfont.ttf" t="Include" />
+            <e p="fontawesome-webfont.woff" t="Include" />
+            <e p="fontawesome-webfont.woff2" t="Include" />
+            <e p="FontAwesome.otf" t="Include" />
+          </e>
+          <e p="HELP-US-OUT.txt" t="Include" />
+          <e p="less" t="Include">
+            <e p="animated.less" t="Include" />
+            <e p="bordered-pulled.less" t="Include" />
+            <e p="core.less" t="Include" />
+            <e p="extras.less" t="Include" />
+            <e p="fixed-width.less" t="Include" />
+            <e p="font-awesome.less" t="Include" />
+            <e p="icons.less" t="Include" />
+            <e p="larger.less" t="Include" />
+            <e p="list.less" t="Include" />
+            <e p="mixins.less" t="Include" />
+            <e p="path.less" t="Include" />
+            <e p="rotated-flipped.less" t="Include" />
+            <e p="screen-reader.less" t="Include" />
+            <e p="spinning.less" t="Include" />
+            <e p="stacked.less" t="Include" />
+            <e p="variables.less" t="Include" />
+          </e>
+          <e p="scss" t="Include">
+            <e p="_animated.scss" t="Include" />
+            <e p="_bordered-pulled.scss" t="Include" />
+            <e p="_core.scss" t="Include" />
+            <e p="_extras.scss" t="Include" />
+            <e p="_fixed-width.scss" t="Include" />
+            <e p="_icons.scss" t="Include" />
+            <e p="_larger.scss" t="Include" />
+            <e p="_list.scss" t="Include" />
+            <e p="_mixins.scss" t="Include" />
+            <e p="_path.scss" t="Include" />
+            <e p="_rotated-flipped.scss" t="Include" />
+            <e p="_screen-reader.scss" t="Include" />
+            <e p="_spinning.scss" t="Include" />
+            <e p="_stacked.scss" t="Include" />
+            <e p="_variables.scss" t="Include" />
+            <e p="font-awesome.scss" t="Include" />
+          </e>
+        </e>
+        <e p="jquery" t="Include">
+          <e p="jquery.js" t="Include" />
+          <e p="jquery.min.js" t="Include" />
+        </e>
+        <e p="metisMenu" t="Include">
+          <e p="metisMenu.css" t="Include" />
+          <e p="metisMenu.js" t="Include" />
+          <e p="metisMenu.min.css" t="Include" />
+          <e p="metisMenu.min.js" t="Include" />
+        </e>
+        <e p="morrisjs" t="Include">
+          <e p="morris.css" t="Include" />
+          <e p="morris.js" t="Include" />
+          <e p="morris.min.js" t="Include" />
+        </e>
+        <e p="raphael" t="Include">
+          <e p="raphael.js" t="Include" />
+          <e p="raphael.min.js" t="Include" />
+        </e>
+      </e>
+      <e p="ViewFiles.aspx" t="Include" />
+      <e p="ViewFiles.aspx.cs" t="Include" />
+      <e p="ViewLoginHistory.aspx" t="Include" />
+      <e p="ViewLoginHistory.aspx.cs" t="Include" />
+      <e p="ViewUserDetails.aspx" t="Include" />
+      <e p="ViewUserDetails.aspx.cs" t="Include" />
+      <e p="ViewUserFiles.aspx" t="Include" />
+      <e p="ViewUserFiles.aspx.cs" t="Include" />
+      <e p="web.config" t="Include" />
+      <e p="website.publishproj" t="Include" />
+    </e>
+  </component>
+</project>
